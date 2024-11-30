@@ -1,0 +1,1673 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml"><head id="j_idt2"><link type="text/css" rel="stylesheet" href="/ohana/javax.faces.resource/theme.css.xhtml?ln=primefaces-aristo" /><link type="text/css" rel="stylesheet" href="/ohana/javax.faces.resource/components.css.xhtml?ln=primefaces&amp;v=8.0" /><script type="text/javascript" src="/ohana/javax.faces.resource/jquery/jquery.js.xhtml?ln=primefaces&amp;v=8.0"></script><script type="text/javascript" src="/ohana/javax.faces.resource/jquery/jquery-plugins.js.xhtml?ln=primefaces&amp;v=8.0"></script><script type="text/javascript" src="/ohana/javax.faces.resource/core.js.xhtml?ln=primefaces&amp;v=8.0"></script><script type="text/javascript" src="/ohana/javax.faces.resource/components.js.xhtml?ln=primefaces&amp;v=8.0"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='ja';}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-language" content="ja" />
+    <meta name="robots" content="noindex" />
+    <title>お知らせ</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" /></head><body>
+    <script>
+      $(document).on("keydown", ":input:not(textarea)", function(event) {
+    	  return event.key != "Enter";
+      });
+    </script>
+    <table style="width:100%;">
+      <tr>
+        <td>
+<form id="menu-form" name="menu-form" method="post" action="/ohana/information.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="menu-form" value="menu-form" />
+<div id="menu-form:j_idt8" class="ui-menu ui-menubar ui-widget ui-widget-content ui-corner-all ui-helper-clearfix" style="float:left;" role="menubar"><div tabindex="0" class="ui-helper-hidden-accessible"></div><ul class="ui-menu-list ui-helper-reset"><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="#" onclick="PrimeFaces.ab({s:&quot;menu-form:j_idt9&quot;,f:&quot;menu-form&quot;});return false;"><span class="ui-menuitem-text"><a href="/ohana/information.xhtml"><img id="menu-form:j_idt11" src="./img/logo.png?pfdrid_c=true" alt="" height="30" /></a></span></a></li><li class="ui-widget ui-menuitem ui-corner-all ui-menu-parent" role="menuitem" aria-haspopup="true"><a href="#" tabindex="-1" class="ui-menuitem-link ui-submenu-link ui-corner-all"><span class="ui-menuitem-icon ui-icon ui-icon-info" aria-hidden="true"></span><span class="ui-menuitem-text">お知らせ</span><span class="ui-icon ui-icon-triangle-1-s"></span></a><ul class="ui-widget-content ui-menu-list ui-corner-all ui-helper-clearfix ui-menu-child ui-shadow" role="menu"><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/information.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-info" aria-hidden="true"></span><span class="ui-menuitem-text">銀河通信</span></a></li></ul></li><li class="ui-widget ui-menuitem ui-corner-all ui-menu-parent" role="menuitem" aria-haspopup="true"><a href="#" tabindex="-1" class="ui-menuitem-link ui-submenu-link ui-corner-all"><span class="ui-menuitem-icon ui-icon build" aria-hidden="true"></span><span class="ui-menuitem-text">管理</span><span class="ui-icon ui-icon-triangle-1-s"></span></a><ul class="ui-widget-content ui-menu-list ui-corner-all ui-helper-clearfix ui-menu-child ui-shadow" role="menu"><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/member-management.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-person" aria-hidden="true"></span><span class="ui-menuitem-text">社員管理</span></a></li><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/client-management.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-gear" aria-hidden="true"></span><span class="ui-menuitem-text">顧客管理</span></a></li></ul></li><li class="ui-widget ui-menuitem ui-corner-all ui-menu-parent" role="menuitem" aria-haspopup="true"><a href="#" tabindex="-1" class="ui-menuitem-link ui-submenu-link ui-corner-all"><span class="ui-menuitem-icon ui-icon ui-icon-pencil" aria-hidden="true"></span><span class="ui-menuitem-text">研修</span><span class="ui-icon ui-icon-triangle-1-s"></span></a><ul class="ui-widget-content ui-menu-list ui-corner-all ui-helper-clearfix ui-menu-child ui-shadow" role="menu"><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/training-status.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-document-b" aria-hidden="true"></span><span class="ui-menuitem-text">研修状況</span></a></li></ul></li><li class="ui-widget ui-menuitem ui-corner-all ui-menu-parent" role="menuitem" aria-haspopup="true"><a href="#" tabindex="-1" class="ui-menuitem-link ui-submenu-link ui-corner-all"><span class="ui-menuitem-icon ui-icon ui-icon-heart" aria-hidden="true"></span><span class="ui-menuitem-text">営業</span><span class="ui-icon ui-icon-triangle-1-s"></span></a><ul class="ui-widget-content ui-menu-list ui-corner-all ui-helper-clearfix ui-menu-child ui-shadow" role="menu"><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/progress.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-arrowrefresh-1-e" aria-hidden="true"></span><span class="ui-menuitem-text">営業進捗</span></a></li><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/work-information.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-suitcase" aria-hidden="true"></span><span class="ui-menuitem-text">案件情報</span></a></li><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/contract-status.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-suitcase" aria-hidden="true"></span><span class="ui-menuitem-text">契約情報</span></a></li><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/contract-check.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-suitcase" aria-hidden="true"></span><span class="ui-menuitem-text">契約確認</span></a></li><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/invoice-status.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-suitcase" aria-hidden="true"></span><span class="ui-menuitem-text">請求情報</span></a></li></ul></li><li class="ui-widget ui-menuitem ui-corner-all ui-menu-parent" role="menuitem" aria-haspopup="true"><a href="#" tabindex="-1" class="ui-menuitem-link ui-submenu-link ui-corner-all"><span class="ui-menuitem-icon ui-icon ui-icon-heart" aria-hidden="true"></span><span class="ui-menuitem-text">業績</span><span class="ui-icon ui-icon-triangle-1-s"></span></a><ul class="ui-widget-content ui-menu-list ui-corner-all ui-helper-clearfix ui-menu-child ui-shadow" role="menu"><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/personal-performance.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-info" aria-hidden="true"></span><span class="ui-menuitem-text">実績確認</span></a></li></ul></li><li class="ui-widget ui-menuitem ui-corner-all ui-menu-parent" role="menuitem" aria-haspopup="true"><a href="#" tabindex="-1" class="ui-menuitem-link ui-submenu-link ui-corner-all"><span class="ui-menuitem-icon ui-icon ui-icon-clock" aria-hidden="true"></span><span class="ui-menuitem-text">勤怠管理</span><span class="ui-icon ui-icon-triangle-1-s"></span></a><ul class="ui-widget-content ui-menu-list ui-corner-all ui-helper-clearfix ui-menu-child ui-shadow" role="menu"><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="#" onclick="PrimeFaces.ab({s:&quot;menu-form:j_idt59&quot;,f:&quot;menu-form&quot;});return false;"><span class="ui-menuitem-icon ui-icon ui-icon-pencil" aria-hidden="true"></span><span class="ui-menuitem-text">月報入力</span></a></li><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/attendance-daily-input.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-pencil" aria-hidden="true"></span><span class="ui-menuitem-text">日報入力</span></a></li><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/attendance-management.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-gear" aria-hidden="true"></span><span class="ui-menuitem-text">月報管理</span></a></li><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/telework-status.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-home" aria-hidden="true"></span><span class="ui-menuitem-text">テレワーク状況</span></a></li><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/development-management.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-suitcase" aria-hidden="true"></span><span class="ui-menuitem-text">開発関連情報管理</span></a></li><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/project-management.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-suitcase" aria-hidden="true"></span><span class="ui-menuitem-text">プロジェクト管理</span></a></li><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/project-check.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-suitcase" aria-hidden="true"></span><span class="ui-menuitem-text">プロジェクト確認</span></a></li><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/member-assignment.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-gear" aria-hidden="true"></span><span class="ui-menuitem-text">メンバー割り当て</span></a></li></ul></li><li class="ui-widget ui-menuitem ui-corner-all ui-menu-parent" style="float:right" role="menuitem" aria-haspopup="true"><a href="#" tabindex="-1" class="ui-menuitem-link ui-submenu-link ui-corner-all"><span class="ui-menuitem-icon ui-icon ui-icon-person" aria-hidden="true"></span><span class="ui-menuitem-text">中村 匡隆様</span><span class="ui-icon ui-icon-triangle-1-s"></span></a><ul class="ui-widget-content ui-menu-list ui-corner-all ui-helper-clearfix ui-menu-child ui-shadow" role="menu"><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="#" onclick="PrimeFaces.ab({s:&quot;menu-form:j_idt72&quot;,f:&quot;menu-form&quot;});return false;"><span class="ui-menuitem-icon ui-icon ui-icon-close" aria-hidden="true"></span><span class="ui-menuitem-text">ログアウト</span></a></li><li class="ui-widget ui-menuitem ui-corner-all ui-menu-parent" role="menuitem" aria-haspopup="true"><a href="#" tabindex="-1" class="ui-menuitem-link ui-submenu-link ui-corner-all"><span class="ui-menuitem-icon ui-icon ui-icon-info" aria-hidden="true"></span><span class="ui-menuitem-text">ユーザー情報</span><span class="ui-icon ui-icon-triangle-1-e"></span></a><ul class="ui-widget-content ui-menu-list ui-corner-all ui-helper-clearfix ui-menu-child ui-shadow" role="menu"><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/user-information.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-pencil" aria-hidden="true"></span><span class="ui-menuitem-text">登録情報確認</span></a></li><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="#" onclick="PrimeFaces.ab({s:&quot;menu-form:j_idt75&quot;,f:&quot;menu-form&quot;});return false;"><span class="ui-menuitem-icon ui-icon ui-icon-pencil" aria-hidden="true"></span><span class="ui-menuitem-text">資格情報</span></a></li></ul></li><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/support.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-contact" aria-hidden="true"></span><span class="ui-menuitem-text">サポート</span></a></li><li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="/ohana/change-password.xhtml"><span class="ui-menuitem-icon ui-icon ui-icon-locked" aria-hidden="true"></span><span class="ui-menuitem-text">パスワード変更</span></a></li></ul></li></ul></div><script id="menu-form:j_idt8_s" type="text/javascript">$(function(){PrimeFaces.cw("Menubar","widget_menu_form_j_idt8",{id:"menu-form:j_idt8",autoDisplay:true,delay:0});});</script><span id="menu-form:j_idt78"></span><script id="menu-form:j_idt78_s" type="text/javascript">$(function(){PrimeFaces.cw("Growl","widget_menu_form_j_idt78",{id:"menu-form:j_idt78",sticky:false,life:3000,escape:false,keepAlive:false,msgs:[{summary:"ログイン成功",detail:"中村さん ようこそ。",severity:'info',severityText:'Information'}]});});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-982279961484555617:2555425392131446064" autocomplete="off" />
+</form>
+        </td>
+      </tr>
+      <tr>
+        <td>
+<form id="main-form" name="main-form" method="post" action="/ohana/information.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="main-form" value="main-form" />
+<label id="main-form:j_idt82:0:j_idt83" class="ui-outputlabel ui-widget"><div class="block-caption">銀河通信</div>
+<div id="back_sheet">
+	<!--コンテンツ表示枠////////////////////////////////////////////////////////////////////////////-->
+	<div id="contentsBox_HM">
+		
+<!-- 外枠 -->
+<table border="1" cellspacing="0" style="background: #ffffff;">
+<tr><td>
+
+<!-- タイトル -->
+<table align="right">
+	<tr>
+		<td><font size="-1">随時更新しています。　Last Updated: 2024/11/29 13:45<font>
+		</td>
+	</tr>
+</table>
+
+<br /></label><label id="main-form:j_idt82:1:j_idt83" class="ui-outputlabel ui-widget"><table border="0" style="width:100%;">
+<tr>
+<td>
+<font size="-1">
+新着情報<br />
+<font color="olive">&lt;更新日時&gt;</font>　<font color="blue">&lt;更新内容&gt;</font><br />
+<font color="olive">
+
+11/29 13:45 <A HREF = "#■geppo&kyakusaki■">
+	<font color="red">11月分の銀河月報・客先勤務表提出のお願い。提出期限は12/2、手数料徴収猶予期限は12/7です</font></A><br>
+11/22 12:45 <A HREF = "#■affairsinfo■">
+	<font color="blue">住所変更があった場合は速やかにご連絡ください＜総務部＞</font></A><br>
+11/22 12:45 <A HREF = "#■mizuho■">
+	<font color="blue">みずほ銀行からのお知らせ</font></A><br>
+11/22 12:45 <A HREF = "#■sangyoi■">
+	<font color="blue">インフルエンザについて＜安全衛生委員会＞</font></A><br>
+</font>
+</td>
+</tr>
+
+</table>
+
+<br />
+　　　　　　<b><A HREF = "#■payslipcontact■"><font color="deeppink">★給与明細・【個別連絡】メールのパスワードはこちら★</A></font></b><br>
+　　　　　　<b><A HREF = "#■Wiki■"><font color="deeppink">☆啓蒙活動掲示板、随時更新してます！☆</font></A></b><br />
+　　　　　　<b><A HREF="https://www.facebook.com/%E9%8A%80%E6%B2%B3%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE-223960377622315/" TARGET="_blank"><font color="deeppink">☆facebook、随時更新してます！☆</font></A></b><br /></label><label id="main-form:j_idt82:2:j_idt83" class="ui-outputlabel ui-widget"><br />
+<font size="+1" color="#990066">
+<u><b>《〈　予　定　表　〉》</b></u>
+
+　<A HREF="https://www2.ginga.info/Circle/file/2024schedule.pdf"TARGET="_blank"><font size="-1" color="blue">2024年度年間スケジュール[PDF]</font></A>
+　<A HREF="https://www2.ginga.info/Circle/file/2025schedule.pdf"TARGET="_blank"><font size="-1" color="blue">2025年度年間スケジュール[PDF]</font></A><br>
+</font>
+<table border="0">
+<tr><td width="20"></td>
+<td style="font-size:0.9em;">
+<br />
+<table border=1  cellpadding="1" cellspacing="0">
+	<tr><!-- 曜日 -->
+		<td align="center" bgcolor=#FF9999>日</td>
+		<td align="center" bgcolor=#D3D3D3>月</td>
+		<td align="center" bgcolor=#D3D3D3>火</td>
+		<td align="center" bgcolor=#D3D3D3>水</td>
+		<td align="center" bgcolor=#D3D3D3>木</td>
+		<td align="center" bgcolor=#D3D3D3>金</td>
+		<td align="center" bgcolor=#87ceeb>土</td>
+	</tr>
+	<tr><!-- 日付と予定[EDIT] -->
+		<td width="80" height="50" align="center" valign="top"><font color="red">11/24<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">25<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">26<br></font><font color="black" size="2">給料日</font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">27<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">28<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">29<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="blue">30<br></font></td>
+	</tr>
+	<tr><!-- 曜日 -->
+		<td align="center" bgcolor=#FF9999>日</td>
+		<td align="center" bgcolor=#D3D3D3>月</td>
+		<td align="center" bgcolor=#D3D3D3>火</td>
+		<td align="center" bgcolor=#D3D3D3>水</td>
+		<td align="center" bgcolor=#D3D3D3>木</td>
+		<td align="center" bgcolor=#D3D3D3>金</td>
+		<td align="center" bgcolor=#87ceeb>土</td>
+	</tr>
+	<tr><!-- 日付と予定[EDIT] -->
+		<td width="80" height="50" align="center" valign="top"><font color="red">12/1<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">2<br></font><A HREF = "#■geppo&kyakusaki■"><font color="blue" size="2">11月分月報提出期限</A></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">3<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">4<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">5<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">6<br></font><A HREF = "#■bonenkai■"><font color="blue" size="2">忘年会</A></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="blue">7<br></font><A HREF = "#■geppo&kyakusaki■"><font color="blue" size="2">11月分月報手数料徴収猶予期限</A></font></td>
+	</tr>
+	<tr><!-- 日付と予定[EDIT] -->
+		<td width="80" height="50" align="center" valign="top"><font color="red">8<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">9<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">10<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">11<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">12<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">13<br></font><font color="black" size="2">賞与</font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="blue">14<br></font><A HREF = "#■footsal■"><font color="blue" size="2">ﾌｯﾄｻﾙ</A></font></td>
+	</tr>
+	<tr><!-- 日付と予定[EDIT] -->
+		<td width="80" height="50" align="center" valign="top"><font color="red">15<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">16<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">17<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">18<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">19<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">20<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="blue">21<br></font></td>
+	</tr>
+	<tr><!-- 日付と予定[EDIT] -->
+		<td width="80" height="50" align="center" valign="top"><font color="red">22<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">23<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">24<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">25<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">26<br></font><font color="black" size="2">給料日</font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">27<br></font><font color="black" size="2">仕事納め</font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="blue">28<br></font></td>
+	</tr>
+	<tr><!-- 曜日 -->
+		<td align="center" bgcolor=#FF9999>日</td>
+		<td align="center" bgcolor=#D3D3D3>月</td>
+		<td align="center" bgcolor=#D3D3D3>火</td>
+		<td align="center" bgcolor=#D3D3D3>水</td>
+		<td align="center" bgcolor=#D3D3D3>木</td>
+		<td align="center" bgcolor=#D3D3D3>金</td>
+		<td align="center" bgcolor=#87ceeb>土</td>
+	</tr>
+	<tr><!-- 日付と予定[EDIT] -->
+		<td width="80" height="50" align="center" valign="top"><font color="red">12/29<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="red">30<br></font><font color="red" size="2">年末年始休暇</font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="red">31<br></font><font color="red" size="2">年末年始休暇</font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="red">1/1<br></font><font color="red" size="2">元日</font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="red">2<br></font><font color="red" size="2">年末年始休暇</font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="red">3<br></font><font color="red" size="2">年末年始休暇</font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="blue">4<br></font><font color="black" size="2">創立記念日</font></td>
+	</tr>
+	<tr><!-- 日付と予定[EDIT] -->
+		<td width="80" height="50" align="center" valign="top"><font color="red">5<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">6<br></font><A HREF = "#■geppo&kyakusaki■"><font color="blue" size="2">12月分月報提出期限</A></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">7<br></font><A HREF = "#■geppo&kyakusaki■"><font color="blue" size="2">12月分月報手数料徴収猶予期限</A></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">8<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">9<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="black">10<br></font></td>
+		<td width="80" height="50" align="center" valign="top"><font color="blue">11<br></font></td>
+	</tr>
+</table><br>
+</label><label id="main-form:j_idt82:3:j_idt83" class="ui-outputlabel ui-widget"><br />
+<font size="+1" color="#990066">
+<u><b>《〈　重要なお知らせ　〉》</b></u><br />
+</font></label><label id="main-form:j_idt82:4:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A Name = "■nenmatsuchosei■"><br>
+■年末調整資料提出のお願い＜総務部＞■<br>
+</b></font><br>
+　お疲れ様です。総務部です。<br>
+　2024年年末調整資料の提出をお願いいたします。<br>
+　昨年と同様に、Excelファイルによりメール提出していただきます。<br>
+<br>
+　○<b><font color="blue">扶養控除等申告書データ・保険料控除申告書データの提出(メール提出)</b></font><br>
+<font color="red">
+　　10月10日に、扶養控除等申告書データと保険料控除申告書データのファイルを<br>
+　　年末調整対象者にメールでお送りしました。<br>
+　　そちらに必要事項をご記入の上、総務部宛にご返信ください。<br>
+　　<b>その際、ファイル名とパスワードは変更しないでください。</b><br>
+</font>
+　　扶養控除等申告書データの提出は全社員必須です。<br>
+　　保険料控除申告書データは該当者のみの提出で構いません。<br>
+<br>
+　　記入例と注意点：<br>
+<font color="blue">
+　　　【A】<A HREF="https://www2.ginga.info/Circle/file/2024fuyokoujo.pdf"TARGET="_blank"><font color="blue">扶養控除申告書[記入例・注意点]</font></A><br>
+　　　【B】<A HREF="https://www2.ginga.info/Circle/file/2024hokenryokoujo.pdf"TARGET="_blank"><font color="blue">保険料控除申告書[記入例・注意点］</font></A><br>
+　　　【C】<A HREF="https://www2.ginga.info/Circle/file/2024kisokoujo.pdf"TARGET="_blank"><font color="blue">配偶者控除申告書[記入例・注意点]</font></A><br>
+</font>
+<br>
+　　　扶養控除等申告書データ・保険料控除申告書データの記入方法は、<br>
+　　　Excel内の入力ガイドをご確認ください。<br>
+<br>
+　　提出期日、提出先：<br>
+　　　扶養控除等申告書データ・・・<font color="red">11月1日(金)17時(メールでご返信ください)</font><br>
+　　　保険料控除申告書データ・・・<font color="red">11月15日(金)17時(メールでご返信ください)</font><br>
+　　　提出先　総務部（audit@ginga.info）<br>
+<br>
+　○<b><font color="blue">年末調整資料原本の提出(郵送または持参で提出)</b></font><br>
+　　年末調整に必要な以下資料の原本の提出をお願いします。<br>
+　※以下の（　）内のコメントに該当する方が対象です。<br>
+<br>
+　１）生命保険料等控除証明書<br>
+　　　（生命保険・個人年金・介護医療保険などの保険料を支払っている方のみ。<br>
+　　　　給与天引きのニッセイの生命保険料は会社に通知が来るので不要です。）<br>
+　２）地震保険料控除証明書（損害保険料控除証明書）<br>
+　　　（地震保険料を支払っている方のみ。）<br>
+　３）社会保険料控除証明書<br>
+　　　（通常は不要。天引きの保険料以外に、国民年金や国民健康保険料を<br>
+　　　　支払っている方のみ。）<br>
+　４）給与所得者の住宅借入金等特別控除申告書<br>
+　　　（住宅借入金等特別控除を受ける方のみ。<br>
+　　　　取得の初年度は各自で確定申告するため不要です。）<br>
+　５）住宅取得資金に係る借入金の年末残高等証明書<br>
+　　　（同上。）<br>
+　６）前職の源泉徴収票<br>
+　　　（今年入社し、前職での収入が今年あり、入社時に未提出の方のみ。）<br>
+　７）配偶者の源泉徴収票<br>
+　　　（配偶者を扶養にしていて、収入がある方のみ。）<br>
+　８）小規模企業共済等掛金払込証明書<br>
+　　　（個人型確定拠出年金（iDeCo（イデコ））を支払っている方、<br>
+　　　　その他対象となる掛金を支払っている方のみ。）<br>
+<br>
+　提出期日：<font color="red">11月29日(金)必着</font><br>
+　提出方法：郵送または本社へお持ちください。<br>
+　　　　　　<font color="red">※忘年会会場では受け取りませんのでご注意ください。</font><br>
+<br>
+　皆様にはお手数をお掛けすることになりますが、<br>
+　提出期限をお守りの上、何卒ご協力いただきますよう、<br>
+　お願いいたします。<br>
+<br>
+　記入方法や提出書類に関してご不明点がありましたら、<br>
+　総務部までメールをいただくか、本社(03-3712-5536)へご連絡ください。<br>
+<br></label><label id="main-form:j_idt82:5:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A Name = "■stresscheck■"><br>
+■ストレスチェック実施のお知らせ＜総務部＞■<br>
+</b></font><br>
+　<A HREF="https://www2.ginga.info/Circle/file/ストレスチェックの受検率を上げましょう.pdf"TARGET="_blank"><font color="blue">ストレスチェックの受検率を上げましょう[PDF]<font color="red"></font></font></A><br>
+<br>
+　<b><font color="red">11月1日(金)よりストレスチェックが始まっています。</b></font><br>
+<br>
+　ストレスチェック実施に際し、基本方針と実施規程は銀河通信メニューの<br>
+　「社内規則」に掲載してありますので、お読みください。<br>
+　　<b>ストレスチェック基本方針</b><br>
+　　<b>ストレスチェック実施規程</b><br>
+<br>
+　<b><font color="red">11月1日(金)にVertEyeシステムから対象者へメールが送られておりますので、<br>
+　11月15日(金)までにストレスチェックを行ってください。<br>
+　対象は銀河グループ全社員です。</b></font><br>
+<br>
+　実施詳細については、<br>
+　<A HREF="https://www2.ginga.info/Circle/file/2024stress.pdf"TARGET="_blank"><font color="blue">ストレスチェック実施要領[PDF]<font color="red"></font></font></A>を参照ください。<br>
+　具体的なスケジュールは「７．実施スケジュール」をご覧ください。<br>
+<br>
+　面接指導の申出は以下の2種類のうちいずれかを提出してください。<br>
+　　・<A HREF="https://www2.ginga.info/Circle/file/2024面接指導申出書.pdf"TARGET="_blank"><font color="blue">面接指導申出書[PDF]</font></A><br>
+　　　PDFでの提出は、印刷し内容を記入のうえ紙媒体を総務部の柳澤へ提出<br>
+　　・<A HREF="https://www2.ginga.info/Circle/file/2024面接指導申出書.docx"TARGET="_blank"><font color="blue">面接指導申出書[Word]</font></A><br>
+　　　Wordでの提出は、内容を入力しメールにて総務部の柳澤(e-yanagisawa@ginga.info)へ提出<br>
+　記入の際は、<A HREF="https://www2.ginga.info/Circle/file/2024面接指導申出書(記入例).pdf"TARGET="_blank"><font color="blue">（記入例）</font></A>を参照してください。<br>
+
+<br>
+　<b>＜ストレスチェックとその目的＞<br>
+</b>
+　　ストレスチェックは社員のストレスの程度を把握するための検査です。<br>
+　　検査結果によってストレスへの気づきを促し、社員がメンタルヘルス不調になることを<br>
+　　未然に防止することを目的としています。<br>
+　　うつ病等のメンタルヘルス不調を診断するものではなく、<br>
+　　総合的なメンタルヘルス対策の一環として実施するものです。<br>
+<br>
+　<b>＜実施方法＞<br></b>
+　　<font color="blue">ストレスチェックはWebにて実施します。<br></font>
+　　実施についての詳細な取り決めは、<b>ストレスチェック実施規程</b>に定めてあります。<br>
+　　<font color="red">ストレスチェックの受検は任意</font>です。<br>
+　　また、高ストレス者を対象とした<font color="red">面接指導の受診も任意</font>です。<br>
+　　しかし、みなさんのメンタルヘルス不調を未然に防ぐための制度ですので、<br>
+　　できるだけ受検・受診するようお願いします。<br>
+
+<br>
+　<b>＜個人情報の保護、不利益取り扱いの禁止＞<br></b>
+　　社員のストレスチェック結果等の個人情報については、<br>
+　　保護のための適切な管理を行います。<br>
+　　ストレスチェックの個人結果は、本人の同意なく、<br>
+　　会社に通知されることはありません。<br>
+　　ストレスチェックの実施に関して、ストレスチェックの結果や、<br>
+　　受検しないことや面接指導を受けないこと等を理由とした<br>
+　　不利益取り扱いは一切行いません。<br>
+<br>
+　ストレスチェックに関するご質問は、総務部の瀧澤または柳澤までお願いします。<br>
+<br></label><label id="main-form:j_idt82:6:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A Name = "■bonenkai■"><br>
+■2024年銀河グループ忘年会のお知らせ＜総務部＞■<br>
+</b></font><br>
+　今年度の忘年会のお知らせです。<br>
+　美味しい料理と飲み物、楽しいプログラムを考えておりますので、<br>
+　皆様ぜひご参加ください！<br>
+<br>
+　開催日時：12月6日（金）受付19:30　開始20:00　終了22:00<br>
+　　　　　※会場の都合上、受付開始時間までは入場できませんので、<br>
+　　　　　　On Timeに来てください！<br>
+　　　　　※コース料理と指定ドリンクの飲み放題です。<br>
+　会場：モンスーンカフェ（代官山）<br>
+　　　　東京都渋谷区鉢山町15-4<br>
+　　　　<A HREF="https://monsoon-cafe.jp/daikanyama/"TARGET="_blank"><font color="blue">https://monsoon-cafe.jp/daikanyama/</font></A><br>
+　対象統括部：<br>
+　　　　システム統括部<br>
+　　　　データ統括部<br>
+　　　　産業IT統括部<br>
+　　　　ヒューマン・イノベーション統括部<br>
+　　　　ソーシャルクリエイト統括部<br>
+　　　　公共システム運用サポート室<br>
+　　　　※大阪システム事業部は別開催予定<br>
+　＜出欠に関して＞<br>
+　・Googleフォームにて出欠のご回答をお願いします。<br>
+　　<A HREF="https://docs.google.com/forms/d/e/1FAIpQLSfkxTNinRKYct3XwpOjMI6E8JA7h3I4Lf4lC8yd_ej5QM4Jpw/viewform?usp=sf_link"TARGET="_blank"><font color="blue">忘年会出欠回答フォーム</font></A><br>
+　・<b>回答締切は10/30(水)</b>です。<br>
+　・営業サイドからお客様先へ出席のための調整を希望する方は、<br>
+　　その旨、部長又は担当営業にご相談ください。<br>
+<br></label><label id="main-form:j_idt82:7:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A Name = "■teigakugenzei■"><br>
+■定額減税について＜総務部＞■<br>
+</b></font><br>
+　令和6年度税制改正より、令和6年分の所得税・住民税において、<br>
+　定額減税が実施されることになりました。<br>
+<br>
+　6月の部会で使用した資料となりますので、ご一読ください。<br>
+　<A HREF="https://www2.ginga.info/Circle/file/202406bukai_teigakugenzei.pdf"TARGET="_blank"><font color="blue">総務部6月部会資料(定額減税)[PDF]</font></A><br>
+
+<br>
+　定額減税の詳細につきましては、各省庁のHPをご確認ください。<br>
+　所得税：<A HREF="https://www.nta.go.jp/publication/pamph/gensen/teigakugenzei_kyuyoshotoku.htm"TARGET="_blank"><font color="blue">国税庁　定額減税について</font></A><br>
+　　　　　<A HREF="https://www.yotsubawork.com/wp-content/uploads/2024/05/2024050269.pdf"TARGET="_blank"><font color="blue">定額減税について［PDF］</font></A><br>
+　住民税：<A HREF="https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/02zeimu04_04000129.html"TARGET="_blank"><font color="blue">総務省　個人住民税における定額減税について</font></A><br>
+<br>
+　銀河グループでの対応<br>
+　〇住民税<br>
+　　市区町村から届く決定通知書を基に、5月労働分または6月労働分より特別徴収を開始します。<br>
+　　個人宛の税額通知書は6月上旬を目途にご自宅へ送付いたします。<br>
+　〇所得税<br>
+　　6月1日時点で銀河グループに社籍がある方を対象に、<br>
+　　5月労働分(6月26日支給給与)より適用いたします。<br>
+<br>
+　<b>6月1日時点での扶養人数の確認メールを総務部よりお送りいたします。<br>
+　<font color="red">相違がある場合のみ5月31日(金)17時までにご返信をお願いいたします。</font></b><br>
+<br>
+　ご不明点ご質問は、総務部(audit@ginga.info)までお願いします。<br></label><label id="main-form:j_idt82:8:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A Name = "■soumumail■"><br>
+■総務からのメールでウイルス検知する場合の対処方法＜総務部＞■<br>
+</b></font><br>
+　総務から送付した健診周知メールの添付ファイル（パスワード付ZIP）が、<br>
+　ウイルス検知してダウンロード出来ない場合、<br>
+　Windows Defenderを一時的に無効にして添付ファイルをダウンロードする<br>
+　対処手順をインフラチームがまとめましたのでお試しください。<br>
+<br>
+　<A HREF="https://www2.ginga.info/Circle/file/202403gokenchitaisyo.pdf"TARGET="_blank"><font color="blue">誤検知の対処[PDF]</font></A><br>
+<br>
+　※サイボウズの掲示板にもインフラチームからの周知が掲載されています。<br>
+<br></label><label id="main-form:j_idt82:9:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A Name = "■dc■"><br>
+■確定拠出年金について＜総務部＞■<br>
+</b></font><br>
+　銀河グループは確定拠出年金を導入しています。<br>
+　詳細については以下の資料をご確認ください。<br>
+<br>
+　　<A HREF="https://www2.ginga.info/Circle/file/dc.pdf"TARGET="_blank"><font color="blue">確定拠出年金（DC）の導入について[PDF]</font></A><br>
+　　<A HREF="https://www2.ginga.info/Circle/file/dcQ&A.pdf"TARGET="_blank"><font color="blue">説明会Q&A[PDF]</font></A><br>
+<br>
+　＜確定拠出年金(DC)のポイントまとめ＞<br>
+　◯DCはプラスαの年金＝大きな福利厚生<br>
+　◯DCの掛金は給与とは別に会社が拠出<br>
+　　（勤続年数により3,000円、5,000円、10,000円）<br>
+　◯勤続3年未満の退職は会社に返還<br>
+　◯節税効果の高いiDeCoが併用可<br>
+　◯拠出された掛金は皆さんが運用して増やす<br>
+　◯元本保証でも定期預金はインフレリスクあり<br>
+　◯運用はルールとメンテナンスが大切<br>
+　◯DC運用は分散投資がポイント<br>
+<br>
+　また、みなさんの確定拠出年金を運用しているJIS&T社から<br>
+　半年に一度「確定拠出年金お取引状況のお知らせ」が届きます。<br>
+　この機会に運用成績を確認しましょう。<br>
+<br>
+　▼「お取引状況のお知らせ」の閲覧方法はコチラ<br>
+　<A HREF="https://www.resona-tb.co.jp/401k/pop/channel/process/PDF/otorihiki_oshirase.pdf"TARGET="_blank"><font color="blue">https://www.resona-tb.co.jp/401k/pop/channel/process/PDF/otorihiki_oshirase.pdf</font></A><br>
+<br>
+　▼「便利な手続き集」はコチラ<br>
+　<A HREF="https://www.resona-tb.co.jp/401k/pop/channel/process/"TARGET="_blank"><font color="blue">https://www.resona-tb.co.jp/401k/pop/channel/process/</font></A><br>
+　・加入者サイトログイン時のパスワード再発行<br>
+　・掛金の商品別配分変更や商品の預け替え<br>
+　といった手続きは「便利な手続き集」をご覧ください。<br>
+<br>
+
+　確定拠出年金についての質問は、総務部(audit@ginga.info)までお願いします。<br>
+<br>
+</label><label id="main-form:j_idt82:10:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A Name = "■dctoshikyoiku1■"><br>
+■【投資教育】確定拠出年金投資教育実施のお知らせ＜総務部＞■<br>
+</b></font><br>
+　2024年7月の部会で、りそな銀行の担当者様をお招きして投資教育を行いました。<br>
+　部会当日に使用した資料を展開します。<br>
+　<A HREF="https://www2.ginga.info/Circle/file/202407DCtoshikyoiku.pdf"TARGET="_blank"><font color="blue">2024年7月投資教育[PDF]</font></A><br>
+<br>
+　〇加入者サイトへのログインに必要なIDとパスワードを保有しているかご確認ください。<br>
+　　ログインID：JIS&T社から届いたハガキ(加入者口座番号)に掲載<br>
+　　ログインパスワード：JIS＆T社から届いたハガキに掲載、またはご自身で変更したもの<br>
+<br>
+　〇運用商品配分未指定の方<br>
+　　これまで運用商品を指定していなかった方は、下記サイトより配分指定をお願いします。<br>
+　　　<A HREF="https://www.jis-t.ne.jp/dczws000/o3w"TARGET="_blank"><font color="blue">https://www.jis-t.ne.jp/dczws000/o3w</font></A><br>
+<br>
+　以下はお手続きガイドのポイントをまとめたものです。<br>
+　<A HREF="https://www2.ginga.info/Circle/file/dc_start_guide.pdf"TARGET="_blank"><font color="blue">企業型確定拠出年金にかかるお手続きガイド[PDF]</font></A><br>
+<br>
+<b>
+　【１】運用商品の指定<br>
+</b>
+<br>
+　１）りそな銀行確定拠出年金サイトにログイン<br>
+　<A HREF="https://www.resonabank.co.jp/nenkin/dc/"TARGET="_blank"><font color="blue">https://www.resonabank.co.jp/nenkin/dc/</font></A><br>
+　ログインに必要な情報は2通のはがきで自宅に届きます。<br>
+　(日本インベスターソリューション・アンド・テクノロジー株式会社(略称：JIS&T)から届きます)<br>
+　<IMG src="https://www2.ginga.info/Circle/file/login.jpg"><br>
+<br>
+<br>
+　２）りそな銀行確定拠出年金サイト運用商品を確認する<br>
+　商品選びの際はスタートツールのページを参考にしてください。<br>
+　<A HREF="https://www.resona-tb.co.jp/401k/pop/channel/starttool/"TARGET="_blank"><font color="blue">https://www.resona-tb.co.jp/401k/pop/channel/starttool/</font></A><br>
+<br>
+　３）JIS&Tのサイトで商品を選択して配分を決めます<br>
+　商品を選択し、その商品が合計100%になるように配分します。<br>
+　商品の選択と配分は、掛金の拠出日の3営業日前の17:30まで可能です。<br>
+　※金額を指定する必要はありません。<br>
+　※拠出日前でも商品の選択と配分ができます。<br>
+　※期限までなら何度でも変更可能です。<br>
+<br>
+<b>
+　【２】投資に関する資料とサイト<br>
+</b>
+<br>
+　●すぐわかる・よくわかるチャネル<br>
+　<A HREF="https://www.resona-tb.co.jp/401k/pop/channel/"TARGET="_blank"><font color="blue">https://www.resona-tb.co.jp/401k/pop/channel/</font></A><br>
+　りそな銀行の確定拠出年金についての情報サイトです。<br>
+　まんがで学ぶこともできます。<br>
+<br>
+<b>
+　【３】資産形成はどうやればよいのか（投資セミナー動画）<br>
+</b>
+<br>
+　<A HREF="https://www2.ginga.info/Circle/file/dc_seminar.pdf"TARGET="_blank"><font color="blue">オンラインセミナー動画[PDF]</font></A><br>
+　資産形成はどうやればよいのかを優しく解説してくれて、<br>
+　「ぜひ資産形成をやってみたい」と思えるようになる動画です。<br>
+<br>
+　ご不明点ご質問は総務部(audit@ginga.info)までお問い合わせください。<br>
+<br></label><label id="main-form:j_idt82:11:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A Name = "■mochikabukai■"><br>
+■銀河グループ持株会について＜総務部＞■<br>
+</b></font><br>
+　持株会は積立額に対して毎年配当をお支払いする福利厚生です。<br>
+　創業当初より目指してきた「従業員のための会社」<br>
+　「社員が運営する会社」を実現できるものと考えます。<br>
+　ぜひこの趣旨にご賛同いただき、持株会への参加をお願いいたします。<br>
+<br>
+　詳細を以下にまとめましたのでご参照ください。<br>
+　<A HREF="https://www2.ginga.info/Circle/file/mochikabukai.pdf"TARGET="_blank"><font color="blue">銀河グループ持株会の発足について[PDF]</font></A><br>
+<br>
+　◯持株会に参加するために特別な手続きは必要ありません。<br>
+　◯不参加や休止を希望する場合は、上記文書末尾の「お願い」をご参照ください。<br>
+<br>
+　ご不明点ご質問は、総務部(audit@ginga.info)までお願いします。<br>
+<br>
+</label><label id="main-form:j_idt82:12:j_idt83" class="ui-outputlabel ui-widget"><A id = "■telework■"><br>
+<b><font color="black">
+■テレワーク手当■<br>
+</b></font><br>
+　現場に出向していて（受託開発を含む）<br>
+　かつテレワーク勤務となっている銀河グループ社員向けに<br>
+　通信費等を補助するため、「テレワーク手当」を支給しております。<br>
+<br>
+　支給条件は下記の通りです。<br>
+　※ 定期券を購入していないこと<br>
+　※ 月5日以上テレワークであること<br>
+　※ 支給額：月額2,000円（営業費として）<br>
+　※ 対象期間：2020年8月～当面の間<br>
+<br>
+　対象社員は、銀河月報で在宅チェック欄が追加されていますので<br>
+　テレワークを実施した日にチェックを入れて提出してください。<br>
+　（支給条件を満たすと支給対象となりますので申請は不要です。）<br>
+<br>
+　本件の問い合わせは所属事業部長宛にお願いします。<br>
+　総務部には問い合わせないようお願いします。<br>
+<br>
+　取締役社長　内海祐太<br>
+</font><br></label><label id="main-form:j_idt82:13:j_idt83" class="ui-outputlabel ui-widget"><A id = "■syanai_sys■"><br>
+<b><font color="black">
+■社内システムの利用方法■<br>
+</b></font>
+<br>
+　＜社内システム利用開始手順＞<br>
+　（１）下記URLにアクセスする<br>
+　　　https://system.ginga.info/ohana/<br>
+　（２）ログイン画面の『パスワードがわからない or 忘れた場合』リンクをクリックする<br>
+　（３）ログインIDに銀河のメールアドレス（～@ginga.info）を入力し、<br>
+　　　『認証コード送信』ボタンを押下する<br>
+　（４）入力したメールアドレスに6桁の認証コードが届くので、<br>
+　　　メールを受信したら画面へ入力して任意のパスワードを設定する<br>
+　（５）再度ログイン画面にアクセスし、上記ログインIDとパスワードを入力してログインする<br>
+　（６）勤怠管理メニューから『月報入力』を選んで月報入力をしてください。<br>
+<br>
+　★★★ 注意点 ★★★<br>
+　・選択行/出勤日/全ての行を対象とする一括入力機能が使えます。<br>
+　・作業内容に対して業務内容（プロジェクト・工程）を登録する形です。<br>
+　　※現在の業務に該当するプロジェクトが選択できない場合は事業部長へ連絡してください。<br>
+　・画面上部の『プロジェクト設定』を押下すると定時、休憩時間などを設定することができます。<br>
+　　⇒ 自分の現場に合わせて登録してください。<br>
+　・24:00以降については00:00～と記載してください。<br>
+　　例）10:00から翌3:00勤務の場合<br>
+　　　　出社時間　退社時間<br>
+　　　　　10:00　　03:00（27:00でなく03:00と入力してください）<br>
+　・有給休暇数が正しく反映されていない可能性があります。<br>
+　　正確な日数を知りたい方は総務部までお問い合わせください。<br>
+<br>
+　★★★ 社内システムに関するお問い合わせ ★★★<br>
+　・システムに関する不具合やご意見は下記メールアドレスへご連絡ください。<br>
+　　(総務部へ問い合わせないようにしてください)<br>
+　　　support-system@ginga.info<br>
+　・質問その他のやりとりを行えるようにSlackのワークスペースを用意しました。<br>
+　　社内システムに興味のある方はご利用ください。<br>
+　　　https://ohana-ayd8332.slack.com/<br>
+<br>
+</label><label id="main-form:j_idt82:14:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A Name = "■project■"><br>
+■社内システム 月報入力時におけるプロジェクト選択に関してのお願い＜営業部＞■<br>
+</b></font><br>
+　社内システムの月報入力時ですが、<br>
+　【月報詳細入力】欄の右側にある【業務内容】欄のプロジェクト<br>
+　及び工程の項目（プルダウン）の選択を必ず行うようお願い致します。<br>
+　※一括入力でプロジェクトを選択すれば一括反映も可能です。<br>
+　選択するプロジェクトが無い・または選択可能なプロジェクトが複数ある場合は、<br>
+　所属長または担当営業へお問い合わせ下さい。<br>
+<br>
+</label><label id="main-form:j_idt82:15:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■cybozu■"><br />
+■サイボウズのログイン方法とメール設定方法■<br />
+</b></font><br />
+　当社ではグループウェアとしてサイボウズを導入しております。<br />
+<br />
+　ログイン方法とメール設定方法は以下の通りです。<br />
+<br />
+　＜ログイン方法＞<br />
+　　URL　　　：<A HREF="https://cyb.ginga.info/scripts/cbag/ag.exe?"TARGET="_blank"><font color="blue">https://cyb.ginga.info/scripts/cbag/ag.exe?</font></A><br />
+　　ログイン名：ginga.infoメールアドレスの@より前<br />
+　　パスワード：西暦の生年月日8桁(例：19900104)<br />
+　　※ログイン後、必ずパスワードの変更を行ってください。<br />
+　　　<A HREF="https://jp.cybozu.help/ja/of10/user/per/p03/password"TARGET="_blank"><font color="blue">https://jp.cybozu.help/ja/of10/user/per/p03/password</font></A><br />
+<br />
+　＜メール設定方法＞<br />
+　・設定に必要なメールアカウント・パスワードは総務部からお知らせします。<br />
+　　設定方法は下記URLをご参照ください。<br />
+　　<A HREF="https://jp.cybozu.help/of10/ja/user/app/ml/prepare/account.html"TARGET="_blank"><font color="blue">https://jp.cybozu.help/of10/ja/user/app/ml/prepare/account.html</font></A><br>
+　≪注意≫<br />
+　メール設定時、メールデータはサーバに残さない設定にしてください！<br />
+<br />
+　サイボウズのログイン・メール設定に関するお問い合わせは、<br />
+　総務部（audit@ginga.info）までご連絡ください。<br />
+<br />
+　サイボウズの使用方法に関することは、サイボウズHP上でご確認ください。<br />
+　<A HREF="https://jp.cybozu.help/ja"TARGET="_blank"><font color="blue">https://jp.cybozu.help/ja</font></A><br />
+<br /></label><label id="main-form:j_idt82:16:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■payslipcontact■"><br>
+■給与明細および【個別連絡】メールの送付について＜総務部＞■<br>
+<br></b></font>
+　銀河グループでは、処理の迅速化および個人情報保護のため、<br>
+　給与明細および【個別連絡】メールをパスワード付きのZIPファイル<br>
+　またはExcelファイルで送付しています。<br>
+<br>
+　《給与明細の送付方法》<br>
+　給与明細のPDFファイルを、パスワード付ZIPファイルに圧縮し、<br>
+　メール添付して送ります。<br>
+　メールタイトルは「YYYY年M月給与明細[<u>組織区分(3文字)</u>]」です。<br>
+　（組織区分は、管理の都合で付加してあるもので、<br>
+　給与明細ファイル名の先頭3文字と一致しています。）<br>
+<br>
+　パスワードは、西暦の生年月日です。<br>
+　例）生年月日が1920/8/29 ならば 19200829 がパスワード<br>
+　なお、ファイル名を見ただけでは誰の明細かわからないようになっています。<br>
+　（ファイル名：　組織区分(2桁)＋年月日(YYYYMM)＋"_"＋任意の連番）<br>
+<br>
+　《【個別連絡】について》<br>
+　健診日の周知、保健指導、年末調整資料など、<br>
+　総務から社員に対して個別にメールを送ることがあります。<br>
+　メールタイトルは「【個別連絡】○○○○○」などです。<br>
+　添付ファイルはパスワード付きのZIPファイルまたはExcelファイルです。<br>
+　パスワードは、給与明細と同じです。<br>
+<br>
+　不明点がありましたら、総務部(audit@ginga.info)にお問い合わせください。<br>
+<br>
+</label><label id="main-form:j_idt82:17:j_idt83" class="ui-outputlabel ui-widget"><A id = "■bukai■"><br>
+<b><font color="black">
+■合同部会のお知らせ■<br>
+</b></font><br>
+　開催日の詳細や参加方法等は所属事業部からの案内を必ずご確認ください。<br>
+<br>
+　＜2025年1月開催＞<br>
+　日時　2025/1/17（金）19：30～</font><br>
+　場所　総研ビル1・2F<br>
+<br></label><label id="main-form:j_idt82:18:j_idt83" class="ui-outputlabel ui-widget"><A id = "■schedule■"><br>
+<font color="black"><b>
+■年間スケジュール＜総務部＞■<br>
+</b></font><br>
+　2025年度の年間スケジュールができました。<br>
+<br>
+　<A HREF="https://www2.ginga.info/Circle/file/2025schedule.pdf"TARGET="_blank"><font color="blue">2025年度年間スケジュール[PDF]</font></A><br>
+<br>
+　年初の休暇ルールにつきましては、下記をご確認ください。<br>
+　<A HREF="http://www.ginga.info/gingahp/files/nenshorule.pdf"TARGET="_blank"><font color="blue">銀河グループ年初休暇ルール[PDF]</font></A><br>
+<br>
+　※法改正により、祝日が変更になる可能性があります。<br>
+　　変更がありましたら、改めて周知いたします。<br>
+<br></label><label id="main-form:j_idt82:19:j_idt83" class="ui-outputlabel ui-widget"><b><font color="blue">
+<A id = "■affairsinfo■"><br>
+■総務関連情報の変更(住所変更・扶養増減等)時は速やかにご連絡ください＜総務部＞■<br>
+</b></font><br>
+　<font color="red">引っ越ししているのに、会社に届け出ていないケースが多くなってきております。<br>
+　社会保険手続きや年末調整等に支障が生じますので、<br>
+　引っ越しされた場合は、速やかにご連絡いただきますよう、<br>
+　ご協力をお願いいたします。<br></font>
+<br>
+　以下のような総務関連情報に変更があった場合、速やかにご連絡ください。<br>
+<br>
+　○携帯の電話番号が変更になった<br>
+　　→新しい番号を教えてください。<br>
+<br>
+　○引っ越しをした<br>
+　　→メールで旧住所(郵便番号も)・新住所(郵便番号も)・転入日を教えてください。<br>
+　　　その後、新しい住民票をご提出ください。<br>
+<br>
+　○結婚をした<br>
+　　　→入籍日、配偶者のお名前（読み仮名）、扶養親族に入れるかどうか、<br>
+　　　を教えてください。<br>
+　　　扶養親族に入れる場合、マイナンバーも含め別途提出書類が必要となります。<br>
+<br>
+　○子供が生まれた<br>
+　　　→お子様の誕生日、お名前（読み仮名）、性別、続柄(長男・長女等)、<br>
+　　　扶養親族に入れるかどうか、<br>
+　　　を教えてください。<br>
+　　　扶養親族に入れる場合、マイナンバーを含め別途提出書類が必要となります。<br>
+<br>
+　上記以外にも様々なケースがあると思いますが、<br>
+　連絡が取れなくなったり、社会保険手続きが遅れてしまう場合がありますので、<br>
+　総務部(audit@ginga.info)まで早めにご連絡ください。<br>
+<br>
+</label><label id="main-form:j_idt82:20:j_idt83" class="ui-outputlabel ui-widget"><A id = "■geppo&kyakusaki■"><br>
+<b><font color="red">
+■月報・客先勤務表提出のお願い＜総務部＞■<br>
+</b></font><br>
+
+<b>
+　★月報と客先勤務表を、締め後すみやかに提出してください。★<br>
+<font color="red">
+　１１月労働分の提出期限は原則１２/２(月)です。</b></font><br>
+<br>
+　※現場の都合等により提出期限に間に合わない場合は、必ず事前に総務へご相談ください。<br>
+<br>
+　＜月報の手数料徴収猶予期限について＞<br>
+　月報の手数料徴収猶予期限は、翌月7日の23:59です。<br>
+　月報のシステム上で管理するため、7日が土日祝日の場合でも変わりません。<br>
+　手数料徴収猶予期限までに月報の提出がない方からは、<br>
+　事務手数料として\1,100を徴収させていただいております。<br>
+　全社員の月報提出が必須となっておりますので、<br>
+　年俸制社員も徴収対象となります。<br>
+　給与処理を迅速に行えるよう、期限内の月報提出にご協力ください。<br>
+<br>
+<b>
+【客先勤務表提出について】<br>
+</b>
+　客先勤務表は締日(現場により締日は異なります。多くは月末締ですが、<br>
+　15日締・20日締などの場合もあります)後、速やかに提出してください。<br>
+　客先勤務表は請求業務に使用する為、緊急性が高いものです。<br>
+　また、月報との照合にも使用する重要な資料でもあります。<br>
+　請求業務および給与計算がスムーズに行えるよう、ご協力をお願いいたします。<br>
+　※客先勤務表が存在しない方は、月報のみの提出で結構です。<br>
+<br>
+　<提出先・提出方法><br>
+　下記のいずれかの方法で提出願います。<br>
+　　1.e-mail
+　　【推奨】<br>
+　　　To：<b>e-kinmu@ginga.info</b>(勤務表提出用アドレス)<br>
+　　　上記メールアドレスで営業部・総務部・事業部長が受け取ります。</a><br>
+　　2.FAX　03-3712-5534<br>
+<br>
+<b>
+【月報提出について】<br>
+</b>
+<font color="black">
+　月報は新システム月報により提出してください。<br>
+　<b>月報の提出期限は原則として月末の翌営業日です。<br>
+</b></font>
+　月報は給与計算に使用します。<br>
+　手数料徴収猶予期限までに提出いただけないと<font color="blue"><u>事務手数料を徴収します</u></font>。<br>
+　また、残業代及び営業費が翌月まわしになることがあります。ご注意ください。<br>
+<br>
+<table border="0" width='640'>
+<tr><td width="30"></td>
+<td>
+	<table border=1 cellpadding="1" cellspacing="0" bgcolor="#FFFF66">
+		<caption><b>【提出期限と手数料徴収猶予期限】</b></caption>
+		<tr><th width="220" height="35">対象</th><th width="170"><font color="blue">提出期限</font></th><th width="170"><font color="red">手数料徴収猶予期限</font></th></tr>
+		<tr><th>2024/11月労働分</th><th><font color="blue">2024/12/2(月)</font></th><th><font color="red">2024/12/7(土)</font></th></tr>
+		<tr><th>2024/12月労働分</th><th><font color="blue">2025/1/6(月)</font></th><th><font color="red">2025/1/7(火)</font></th></tr>
+		<tr><th>2025/1月労働分</th><th><font color="blue">2/3(月)</font></th><th><font color="red">2/7(金)</font></th></tr>
+		<tr><th>2025/2月労働分</th><th><font color="blue">3/3(月)</font></th><th><font color="red">3/7(金)</font></th></tr>
+		<tr><th>2025/3月労働分</th><th><font color="blue">4/1(火)</font></th><th><font color="red">4/7(月)</font></th></tr>
+		<tr><th>2025/4月労働分</th><th><font color="blue">5/1(木)</font></th><th><font color="red">5/7(水)</font></th></tr>
+		<tr><th>2025/5月労働分</th><th><font color="blue">6/2(月)</font></th><th><font color="red">6/7(土)</font></th></tr>
+		<tr><th>2025/6月労働分</th><th><font color="blue">7/1(火)</font></th><th><font color="red">7/7(月)</font></th></tr>
+		<tr><th>2025/7月労働分</th><th><font color="blue">8/1(金)</font></th><th><font color="red">8/7(木)</font></th></tr>
+		<tr><th>2025/8月労働分</th><th><font color="blue">9/1(月)</font></th><th><font color="red">9/7(日)</font></th></tr>
+		<tr><th>2025/9月労働分</th><th><font color="blue">10/1(水)</font></th><th><font color="red">10/7(火)</font></th></tr>
+		<tr><th>2025/10月労働分</th><th><font color="blue">11/4(火)</font></th><th><font color="red">11/7(金)</font></th></tr>
+		<tr><th>2025/11月労働分</th><th><font color="blue">12/1(月)</font></th><th><font color="red">12/7(日)</font></th></tr>
+		<tr><th>2025/12月労働分</th><th><font color="blue">2026/1/5(月)</font></th><th><font color="red">2026/1/7(水)</font></th></tr>
+	</table>
+</td>
+</table>
+<br>
+</b>
+　<b>１）客先勤務表と銀河月報の時間を必ず一致させてください</b><br>
+　　月報の勤務時間と客先の勤務時間を合わせることが大前提となっています。<br>
+　　月報入力画面の「客先勤務時間」欄には、必ず客先勤務表の労働時間を<br>
+　　記入してください。<br>
+　　※現場が20日締めといった理由で一致しない方は、無理に合わせる必要はありません。<br>
+<font color="crimson">
+　　＜ご注意：部会の時間は記入できません＞<br>
+　　部会は本来、基本給に含まれるという扱いであり月報に記入することはできません。<br>
+　　上記の原則通り、客先勤務表と時間を一致させてください。<br>
+　　また、客先勤務表がない場合も、部会参加の時間を除いて記入するよう<br>
+　　お願いいたします。</font><br>
+<br>
+　<b>２）月報の休憩時間設定は客先に休憩時間設定に合わせてください</b><br>
+　　客先勤務表の時間と月報の時間に相違がある原因が、<br>
+　　休憩時間の設定漏れである場合が多いので、特にご注意ください。<br>
+<br>
+　<b>３）営業費の記入を忘れずにお願いします</b><br>
+　　銀河ソフトウェアへ請求する交通費(定期代)・経費は「自社営業費」欄へ、<br>
+　　お客様先へ請求する営業費は下方の「客先営業費」欄へ記入してください。<br>
+<br>
+　　★交通費は定期券購入が原則です★<br>
+　　安定して勤務しているにもかかわらず、定期券を購入していない方がいます。<br>
+　　稼働が不安定な時期以外は定期券を購入してください。<br>
+<br>
+　　★領収書提出のお願い★<br>
+　　【営業費で領収書が必要なもの】<br>
+　　　電車賃とバス代（定期券含む）以外の経費を請求する場合は<br>
+　　　<u><b>領収書（原本）</b></u>の提出が必須です。<br>
+　　【提出方法】<br>
+　　　本社宛に郵送でご提出ください。<br>
+　　　月報と一緒に提出していただくのが原則ですが、社外で勤務している場合は<br>
+　　　難しいので、後からの提出を認めています。<br>
+　　【注意点】<br>
+　　　領収書は<u><b>「銀河ソフトウェア株式会社」宛</b></u>で取得してください。<br>
+　　　月報に、必ず購入物品の具体名称、例えば<u><b>書籍なら書籍名を明記</b></u>してください。<br>
+　　　領収書または月報の記述に不備があると、営業費を支給できない場合があります。<br>
+　　　領収書の原本を提出いただけない場合、後日調整（営業費からの控除）する場合が<br>
+　　　ありますのでご注意ください。<br>
+<br>
+　　　※営業費で購入した書籍は、読み終わったら会社に返却してください。<br>
+　　　※不明な点は、総務までお問い合わせください。<br>
+<br>
+　<b>４）作業報告を記入してない方がいます。忘れずに記入してください</b><br>
+　　月報には作業報告欄があります。<br>
+　　これは、皆さんの作業状況を確認するための重要な情報ですので、必ず記入してください。<br>
+<br>
+　<b>５）年末年始などに休暇を取得する場合の注意点</b></font><br>
+　　○本社が休みのときに出勤する場合（例：現場が1/3から開始のため出勤した）<br>
+　　　→休日出勤と同じ扱いになります。<br>
+　　　　通常通り、勤務時間を記入してください。<br>
+　　○本社が出勤日のときに休む場合（例：現場が12/27で終了のため12/28を休んだ）<br>
+　　　→通常の欠勤と同じ扱いになります。欠勤欄にて「欠勤」を選んでください。<br>
+　　　　有給休暇が残っている方は、有給休暇を充てることもできます。<br>
+<br>
+<b><A id = "■shinyajikan■">
+　６）深夜時間について</b><br>
+　　22時～翌5時まで勤務した場合、30分単位で深夜時間（最大7時間）が発生します。<br>
+　　深夜時間は自動で算出され、修正することはできません。<br>
+　　深夜時間は銀河グループのルールですので、客先の単位時間や休憩時間の影響を<br>
+　　受けることはありません。誤解のないようお願いします。<br>
+<br>
+
+<b><A id = "■yukyurules■">
+　７）有給休暇の消化ルールについて</b><br>
+　　皆さんから有給休暇の取得請求があった場合、当年度付与分と前年度繰越分の内、<br>
+　　当年度付与分より消化されます。<br>
+　　当年度に付与され消化されなかった有給休暇は、次年度に限り繰越されます。<br>
+<br>
+　　詳細につきましては、メニューの社内規則の就業規則をご覧ください。<br>
+<br>
+</label><label id="main-form:j_idt82:21:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■kinmujikan2■"><br>
+■【徹底のお願い】勤務時間は毎日入力してください＜総務部＞■<br>
+</b></font><br>
+　<font color="red"><b>法令遵守のため、みなさんを守るため、勤務時間を毎日入力してください。</b></font><br>
+<br>
+　36協定は、みなさんを守るために定めた、時間外労働についての労使協定です。<br>
+　当社の36協定において特に意識してほしい点が3点あります。<br>
+　そしてこの3点を適切に運用するには、勤務時間を毎日記録することが必要です。<br>
+<br>
+　<b>１）45h超の時間外労働には同意が必要</b><br>
+　　36協定の特別条項に、45h超の時間外労働をする場合には「労使の協議」が必要とあります。<br>
+　　<font color="red">労使の協議を経ずに45h超の労働をさせると会社は法令違反になってしまいます。</font><br>
+　　月報では「45h超の延長勤務に同意します」にチェックすることで<br>
+　　「労使の協議」を実現しています。<br>
+　　これを正しく運用するためには毎日の勤務時間入力が必要です。<br>
+<br>
+　<b>２）45h超の時間外労働は年間で6回まで</b><br>
+　　45h超の時間外労働は、年間(1/1～12/31)で6回までと定めています。<br>
+　　<font color="red">6回を超えて労働させると会社は法令違反になってしまいます。</font><br>
+　　月報の「年間延長回数」欄にこれまでの延長回数が表示されていますので、<br>
+　　注意するようにしてください。<br>
+　　これを正しく運用するためには、毎日の勤務時間入力が必要です。<br>
+<br>
+　<b>３）1か月の時間外労働時間は最長99hまで</b><br>
+　　36協定の特別条項に1か月の延長時間は99hまでと定めています。<br>
+　　<font color="red">99hを超えて労働させると会社は法令違反になってしまいます。</font><br>
+　　例えば月所定日数が20日の場合、8h×20日＋99h＝259hを超えると法令違反です。<br>
+　　こうした法令違反となる労働を未然に防ぐには、毎日の勤務時間入力が必要です。<br>
+<br>
+　法令遵守のため、そしてみなさんを守るため、<br>
+　勤務時間を毎日入力することの徹底をお願いします。<br>
+<br>
+</label><label id="main-form:j_idt82:22:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■kinmujikan■"><br />
+■勤務時間は正しく申告しましょう＜総務部＞■<br />
+</b></font><br />
+　<b>◯勤務時間の自己申告制の問題点</b><br />
+<br />
+　　客先常駐型の勤務がほとんどである当社では、<br />
+　　勤務時間の記録は自己申告制を原則としています。<br />
+<br />
+　　しかし、自己申告制の不適切な運用に伴う、割増賃金の未払いや<br />
+　　過重な長時間労働といった問題がしばしばメディアで取り上げられています。<br />
+　　過労自殺とされた電通女子社員の事件では、自己申告制を悪用した<br />
+　　残業時間の過少申告が問題になりました。<br />
+<br />
+　　こうした背景もあり、当社も労働基準監督署から、<br />
+　　勤務時間を適正に把握するための方策を求められています。<br />
+<br />
+　<b>◯労基署推奨の「勤務時間の適正な把握方法」</b><br />
+<br />
+　　労働基準監督署が推奨する記録方法は以下の通りです。<br />
+<br />
+　　【原則的な方法】<br />
+　　１）使用者（会社）が、労働者の勤務時間を直接記録する。<br />
+　　２）タイムカード、ICカード等の客観的な記録に基づいて記録する。<br />
+<br />
+　　【自己申告制により行わざるを得ない場合の措置】<br />
+　　３）労働者に対して勤務時間を正しく記録するよう指導する。<br />
+　　４）自己申告制により把握した勤務時間が実際の勤務時間と合っているか、<br />
+　　必要に応じて実態調査を実施する。<br />
+<br />
+　　客先常駐型の勤務が多い当社においては、１と２は対応が難しく、<br />
+　　原則として３および４による時間把握を行います。<br />
+　　ただし、可能な場合は２についても検討します。<br />
+<br />
+
+　<b>◯当社における「勤務時間の適正な把握方法」</b><br />
+<br />
+　<font color="blue"><b>１）自分自身を守るためにも勤務時間は正しく記録してください</font></b><br />
+<br />
+　　勤務時間を正しく記入することは、過重な長時間労働を防止するためにも必要です。<br />
+　　残業時間を過少申告したり、サービス残業したりといった行為は、<br />
+　　健康障害の発症やメンタルヘルス不調につながりかねません。<br />
+　　自分自身を守るためにも、勤務時間は正確に記録しなければなりません。<br />
+<br />
+　<font color="blue"><b>２）客先勤務表がある場合は提出してください</font></b><br />
+<br />
+　　月報への時間入力は、客先勤務時間に合わせることが原則です。<br />
+　　請求業務に必要な場合は客先勤務表の提出が必須ですが、<br />
+　　請求業務に必要でない場合でも、客先勤務表がある場合は提出してください。<br />
+　　万一、客先勤務表の時間が実態と相違しているような場合は相談してください。<br />
+　　客先勤務表自体、ほとんどは自己申告制に基づくものですが、<br />
+　　実態確認のための参考資料として活用します。<br />
+<br />
+　<font color="blue"><b>３）客先の状況が許す場合はタイムカードなどを導入します</font></b><br />
+<br />
+　　当社は基本的には自己申告制を取らざるを得ない状況ですが、<br />
+　　客先の状況が許す場合、タイムカード等の客観的な記録方法の導入を検討します。<br />
+<br />
+　<font color="blue"><b>４）月報の時間が実際の勤務時間と合っているかの調査を行います</font></b><br />
+<br />
+　　自己申告制を補うため、月報の時間が実際の勤務時間と合っているかの調査を、<br />
+　　年間を通して行います。<br />
+　　対象者は当社独自の選定基準によりサンプリングし、<br />
+　　総務部による実態調査（面談、ヒアリング）を行います。<br />
+　　サンプリングされた方は、ご協力をお願いします。<br />
+<br /></label><label id="main-form:j_idt82:23:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■jikangai■"><br />
+■時間外労働を削減しましょう＜総務部＞■<br />
+</b></font><br />
+　過労死ラインという言葉を聞いたことがありますか。<br />
+　一般的には「時間外労働が1か月100時間超、2か月～6カ月平均80時間超」を<br />
+　過労死ラインと言います。<br />
+　これは、「脳血管疾患及び虚血性心疾患等の認定基準」として、<br />
+　医学的根拠に基づいて定められているものです。<br />
+　皆さんの大切な体のため、時間外労働ができるだけ1か月80時間を超えないよう<br />
+　心がけてください。<br />
+　もし可能なら、1か月の時間外労働が45時間以内に収まるような勤務を目指してください。<br />
+<br />
+　なお、過労死ラインの基準に該当した場合、当社安全衛生委員会から<br />
+　「疲労蓄積度チェック」のメールを送ります。その際はご協力お願いします。<br />
+<br /></label><label id="main-form:j_idt82:24:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A Name = "■summervacation■"><br>
+■「夏休み」は月報上で「有休」を選択してください＜総務部＞■<br>
+</b></font><br>
+　月報上、夏休みに相当する休みは「有休」を選択してください。<br>
+<br>
+　<b>新入社員などまだ有休が支給されてない正社員の場合は、<br>
+　夏休みに相当する休みには「特別休暇」を選択してください。</b><br>
+<br>
+　＊＊＊＊＊　銀河通信の「就業規則の変更について」より抜粋　＊＊＊＊＊<br>
+　2019年4月の就業規則の変更により、これまでの夏季休暇4日に相当する<br>
+　特別休暇を取得できるようになりました。<br>
+　特別休暇は、年次有給休暇をすべて消化した後に4日まで使用できます。<br>
+　「有給休暇を、残数が-4日になるまで使用できる」とご理解ください。<br>
+　特別休暇は、これまでの夏季休暇と違い、<br>
+　時季を定めず（7月～9月に限定しない）使用できます。<br>
+　＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊<br>
+<br>
+　【注意点とお願い】<br>
+　１）夏休みに相当する休みであっても、お客様にとっては欠勤と同じです。<br>
+　　　配慮のない休暇取得は、お客様からの勤怠評価に悪影響を及ぼします。<br>
+　　　取得の際は、業務への影響に十分注意してください。<br>
+<br>
+　２）技術者の皆さんの契約は、通常1ヶ月単位で単価が決まっています。<br>
+　　　そして多くの場合は下限時間があり、これ下回ると控除され、<br>
+　　　会社にとって損失となります。<br>
+　　　休暇を取得しても、できるだけ控除が発生しない勤務をお願いします。<br>
+<br>
+　不明点等は総務にご相談ください。<br>
+<br>
+</label><label id="main-form:j_idt82:25:j_idt83" class="ui-outputlabel ui-widget"><A id = "■absence■"><br />
+<b><font color="black">
+■休暇届ルール■<br />
+</b></font>
+<br />
+　休暇（遅刻、早退含む）を取得する際は、下記へメールをお送りください。<br>
+　<b>e-kintai@ginga.info</b>(全社員共通休暇届用アドレス)<br />
+　送付方法の詳細は<A HREF="https://www2.ginga.info/Circle/file/kyuuka.pdf"TARGET="_blank"><font color="blue">休暇届運用ルール[PDF]</font></A>を参照してください。<br />
+<br />
+</label><label id="main-form:j_idt82:26:j_idt83" class="ui-outputlabel ui-widget"><A id = "■mynumber■"><br />
+<font color="black"><b>■マイナンバーのご提出について＜総務部＞■<br />
+</b></font><br />
+　提出に際して、使用目的と注意点等が記載してありますので、下記PDFをご覧ください。<br />
+　<A HREF="https://www2.ginga.info/Circle/file/mynumber_mokuteki.pdf"TARGET="_blank">特定個人情報利用目的通知書[PDF]</A><br />
+　<A HREF="https://www2.ginga.info/Circle/file/mynumber_teisyutu.pdf"TARGET="_blank">マイナンバー提出のお願い[PDF]</A><br />
+　<A HREF="https://www2.ginga.info/Circle/file/mynumber_teisyututyuui.pdf"TARGET="_blank">マイナンバー提出時の注意点[PDF]</A><br />
+　<A HREF="https://www2.ginga.info/Circle/file/mynumber_ininjyo.pdf"TARGET="_blank">被扶養者委任状[PDF]</A>　※配偶者を扶養にしている場合のみ<br />
+
+<br />
+　提出先：銀河グループ　総務部<br />
+　提出書類：個人番号カード(両面)のコピー<br />
+　　　　　　　委任状(配偶者を扶養にしている方のみ)<br />
+　　　　　　　本人確認書類(配偶者分)<br />
+<br />
+　ご不明点等ありましたら、総務部(audit@ginga.info)へお問い合わせください。<br>
+<br />
+　以上、宜しくお願いいたします。<br />
+<br /></label><label id="main-form:j_idt82:27:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■privacymark■"><br>
+■セキュリティ教育と自己点検報告書作成のお願い＜情報コンプライアンス事業部＞■<br>
+</b></font><br>
+　プライバシーマークを維持するため、毎年社内教育を行っております。<br>
+　お忙しい方もいらっしゃるかと思いますが、下記をご確認の上、<br>
+　教育テスト・自己点検報告書のご提出を宜しくお願い致します。<br>
+<br>
+　対象は、全社員となります。<br>
+<br>
+<font color="red">
+　1．サイボウズへログイン<br>
+　2．掲示板にある「セキュリティ教育と自己点検報告書作成のお願い」から実施<br>
+　※サイボウズで出来ない方は部長にご確認ください</font><br>
+<br>
+　以上、宜しくお願い致します。<br>
+<br></label><label id="main-form:j_idt82:28:j_idt83" class="ui-outputlabel ui-widget"><A id = "■communicationsheet■"><br />
+<font color="black"><b>
+■コミュニケーションシート作成のお願い■<br />
+</b></font><br />
+　社員一人一人の状態の把握、コミュニケーションを目的とし年2回作成を行います。<br />
+<br />
+　社員からリーダー・マネージャーに、作成依頼をしてくだい。<br />
+　給与・賞与査定に影響致しますので締切までの作成お願いします。<br />
+<br />
+　提出期限：前期6月末、後期12月末<br />
+<br />
+　●リーダー・マネージャーへ<br />
+　　<A HREF="http://www.ginga.info/gingahp/files/communicationsheet2013.xlsx"TARGET="_blank"><font color="blue">コミュニケーションシートフォーマット</font></A><br>
+　　提出先：営業部(eigyou@ginga.info)<br />
+　　提出期限：前期6月末、後期12月末<br />
+　　提出方法：<A HREF="http://www.ginga.info/gingahp/files/CSmailformat.pdf"TARGET="_blank"><font color="blue">コミュニケーションシート提出方法について[PDF]</font></A><br>
+<br />
+　以上、宜しくお願いいたします。<br />
+<br /></label><label id="main-form:j_idt82:29:j_idt83" class="ui-outputlabel ui-widget"><A id = "■phishing■"><br />
+<b><font color="black">
+■フィッシング詐欺に注意してください＜情報コンプライアンス事業部＞■<br />
+</b></font>
+<br />
+　コロナウィルスの影響によりテレワークでの仕事が増えておりますが、<br />
+　この状況に合わせてフィッシング詐欺が増えておりますので注意をお願いします。<br />
+<br />
+　新たにログインを求められる場合、使用ツール、ドメインの信憑性を確認してください。<br />
+<br />
+　メールで突然来る再ログインの情報はかなり怪しいです。<br />
+　個人情報や、ログイン情報を新たなシステムに入力する場合は注意深くお願いします。<br />
+<br />
+　自宅PCを使用してテレワークを行う場合は、定期的なWindowsアップデート、<br />
+　ウィルスチェックもお願いします。<br />
+<br /></label><label id="main-form:j_idt82:30:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■securitycheck■"><br />
+■セキュリティ意識再確認のお願い＜情報コンプライアンス事業部＞■<br />
+</b></font><br />
+　SNSで職場情報や他人の愚痴や情報を書き込み、<br />
+　見た人からの通報で大問題に発生する事例が増えております。<br />
+<br />
+　携帯電話やスマホからの安易な書き込みによる事故が大半だと思います。<br />
+　ネットの情報は不特定多数の方が閲覧する事を再認識してください。<br />
+<br />
+　銀河のセキュリティルールでは、「業務で知り得た情報」は、<br />
+　ネット等の媒体に記述するのは禁止です。<br />
+　業務情報を書き込むのはもちろん禁止ですが、<br />
+　個人を特定するような書き込みも、業務で知り得た情報になります。<br />
+　安易な書き込みをしないように気をつけてください。<br />
+<br />
+　もし、過去の書き込みも同様ですので、削除願います。<br />
+<br />
+　情報コンプライアンス事業部部長　星野俊之<br />
+<br /></label><label id="main-form:j_idt82:31:j_idt83" class="ui-outputlabel ui-widget"><A id = "■shikaku■"><br />
+<font color="black"><b>
+■資格一時金の申告方法について＜総務部＞■<br />
+</b></font><br />
+　営業に有効な資格取得を奨励するため、資格に対する手当を支給しております。<br />
+　詳細は賃金規程をご参照ください。<br />
+<br />
+<font color="crimson">
+　<b>【注意】事前申告が必要です</b><br />
+　一時金支給には、受験の事前申告が必要となります。<br />
+　必ず事前に会社に申告し、承認を受けてから受験してください。<br />
+　申告がない場合は一時金支給の対象になりませんので、お気を付けください。<br />
+　なお、承認に時間がかかるケースもありますので、直前の申請は避けてください。<br />
+　できるだけ受験の１か月前までに申請するようお願いします。<br />
+</font>
+<br />
+　申告方法：<br />
+　　以下を参考にして、総務部(audit@ginga.info)宛にメールで申告してください。<br />
+<br />
+　　○受験前事前申告時<br />
+　　　メールタイトル「資格受験承認依頼」<br />
+　　　メール本文に「氏名」「資格名」「受験予定日」<br />
+　　　※検討後、総務より承認結果を通知します。<br />
+<br />
+　　○受験結果申告<br />
+　　　メールタイトル「資格受験結果申告」<br />
+　　　メール本文に「氏名」「資格名」「受験結果（合否、合格日等）」<br />
+　　　合格した場合は、合格を証明する書類を提出のこと。<br />
+<br /></label><label id="main-form:j_idt82:32:j_idt83" class="ui-outputlabel ui-widget"><A id = "■shikaku2■"><br />
+<font color="black"><b>
+■情報処理安全確保支援士登録に係る費用を補助します＜総務部＞■<br />
+</b></font><br />
+　情報処理安全確保支援士（旧資格名：情報セキュリティスペシャリスト）は<br />
+　登録制となっております（登録セキスペ）。<br />
+　情報セキュリティが重要性を増している状況を鑑みて、<br />
+　会社として情報処理安全確保支援士を奨励することとし、<br />
+　一時金支給に加えて、登録費用と維持費用の補助をルール化しております。<br />
+<br />
+<table border="0" width='640'>
+<tr><td width="30"></td>
+<td>
+<table border=1 cellpadding="1" cellspacing="0" >
+<font size="-2">
+	<tr><th width="120"></th><th width="100">支給額</th><th width="100">提出書類</th><th width="120">支給方法</th></tr>
+	<tr><th>(A) 取得時の資格一時金</th><th>100,000</th><th>合格証書</th><th>他の資格一時金に同じ</th></tr>
+	<tr><th>(B) 登録時の費用補助</th><th>19,700</th><th>登録証</th><th>経費扱いで随時振込</th></tr>
+	<tr><th>(C) 1年に1回の講習費用補助</th><th>20,000</th><th>講習修了証</th><th>経費扱いで随時振込</th></tr>
+	<tr><th>(D) 3年に1回の講習費用補助</th><th>80,000</th><th>講習修了証</th><th>経費扱いで随時振込</th></tr>
+</font>
+</table>
+</table>
+<br />
+　(A)についてはこれまで通り資格一時金として賞与で支給します。<br />
+　これに加えて登録とその維持への補助として(B)～(D)を定めました。<br />
+　これらは賞与での一時金払いではなく、経費扱いで随時振り込みます。<br />
+<br />
+　ぜひご検討ください。<br />
+<br /></label><label id="main-form:j_idt82:33:j_idt83" class="ui-outputlabel ui-widget"><A id = "■keirekisyo■"><br>
+<font color="black"><b>
+■技術経歴書更新のお願い＜営業部＞■<br>
+</b></font><br>
+　スキル票に書いてある内容を常に最新の状態にして頂くようお願いします。<br>
+　注意事項や記述方法などは下記からダウンロードして使用してください。<br>
+　<A HREF="https://www2.ginga.info/Circle/file/skill.zip"TARGET="_blank"><font color="blue">スキル票更新資料一式[zip]</font></A><br>
+<br>
+</label><label id="main-form:j_idt82:34:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■employeeintroduction■"><br />
+■社員紹介制度のお知らせ■<br />
+</b></font><br />
+　社員の皆様からの紹介により銀河グループに入社し、<br />
+　3ヵ月以上出向した場合、紹介者に謝礼をお支払い致します。<br />
+　興味のある方は、担当の吉村正一(s-yoshimura@ginga.info)まで問い合わせ願います。<br />
+<br /></label><label id="main-form:j_idt82:35:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■housingconsul■"><br />
+■住宅相談窓口設置のお知らせ■<br />
+</b></font><br />
+　福利厚生のひとつとして、社内向け住宅相談窓口を設置しております。<br />
+　リフォームや住宅購入を検討している方は是非一度相談ください。<br />
+　興味のある方は、吉村正一(s-yoshimura@ginga.info)までご連絡ください。<br />
+<br /></label><label id="main-form:j_idt82:36:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■soukenbooks■"><br />
+■総研ビルの書籍の返却と寄贈のお願い＜教育開発事業部＞■<br />
+</b></font><br />
+　総研ビルの本棚から持ち出した書籍は、必ず返却してください。<br />
+　総研ビルの書籍は研修中の社員が使用するものなので、<br />
+　持ち出されたままですと教育業務に支障をきたします。<br />
+<br />
+　また手持ちの書籍で、不要となったものは会社に寄贈していただけると非常に助かります。<br />
+　書籍の返却・寄贈は、直接本社にお持ちください。郵送でも構いません。<br>
+<br />
+　皆さんのご協力をお願い致します。<br />
+<br /></label><label id="main-form:j_idt82:37:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■furusatonozei■"><br />
+■「オフィスでふるさと納税」＜総務部＞■
+</b></font><br />
+<br />
+　銀河ソフトウェアでは福利厚生の一環として、<br />
+　「オフィスでふるさと納税」というサービスを導入しております。<br />
+<br />
+　ふるさと納税は大変メリットの多い制度です。<br />
+　ぜひご検討ください。<br />
+　なお、当社には寄付額に応じた事務手数料が入り、福利厚生に活用しています。<br />
+<br />
+　サービスへのログインおよび新規登録は以下の当社専用URLからお願いします。<br />
+<br />
+　○<b>銀河ソフトウェア専用ふるさとプレミアムURL<br />
+　　<font color="blue">26p.jp/?office=386</font></b><br />
+　　<IMG src="https://www2.ginga.info/Circle/file/furusatochart.png"><br />
+　　★必ずこの銀河ソフトウェア専用URLからアクセスしてください★<br />
+<br />
+　　操作手順は利用マニュアルを参照ください。<br />
+　　<A HREF="https://officefurusato.jp/manual/"TARGET="_blank"><font color="blue">https://officefurusato.jp/manual/</font></A><br />
+　　※当社は「企業で1本のURLの発行」に該当するのでメールは届きません。<br />
+　　　上記URLからログインしてください。<br />
+　　※当社は「企業で1本のURLの発行」のため、誰がどこにいくら寄付したかは、<br />
+　　　会社側にはわかりません。<br />
+<br />
+　＜ふるさと納税とは？＞<br />
+　　ふるさと納税には下記の3つの特徴があります。 <br />
+　　１．好きな自治体を応援できる。<br />
+　　２．返礼品を受け取ることができる。<br />
+　　３．税金の控除が受けられる。<br /> 
+<br />
+　　ふるさと納税の詳細は以下サイトをご覧ください。<br />
+　　　総務省ふるさと納税ポータルサイト<br />
+　　　<font color="blue">www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/080430_2_kojin.html</font><br />
+<br />
+　お問い合わせは総務部（audit@ginga.info）までお願いします。<br />
+<br /></label><label id="main-form:j_idt82:38:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■appli■"><br>
+■当社のiPhone&Androidアプリ公開情報＜ゲーム開発事業部＞■<br>
+</b></font><br>
+　●「みんなでかるたオンライン」
+　<A HREF="https://apps.apple.com/jp/app/id1547933964"TARGET="_blank"><font color="blue">[AppStore]</font></A><br>
+　●「祝日にならないアラーム」
+　<A HREF="https://apps.apple.com/jp/app/id1543325242"TARGET="_blank"><font color="blue">[AppStore]</font></A><br>
+　●「Hide and Shoot」
+　<A HREF="https://store.steampowered.com/app/1364150/Hide_and_Shoot"TARGET="_blank"><font color="blue">[Steam]</font></A><br>
+　●「銀河創業物語」
+　<A HREF="https://itunes.apple.com/jp/app/id1514821772"TARGET="_blank"><font color="blue">[AppStore]</font></A><br>
+　●「ゾンビーズパラダイスパズル」
+　<A HREF="https://apps.apple.com/jp/app/id1398155803"TARGET="_blank"><font color="blue">[AppStore]</font></A><br>
+　●「おかず甲子園 令和名勝負」
+　<A HREF="https://apps.apple.com/jp/app/id1473549967"TARGET="_blank"><font color="blue">[AppStore]</font></A>
+　<A HREF="https://play.google.com/store/apps/details?id=jp.co.ginga.games.okazur"TARGET="_blank"><font color="blue">[Google Play]</font></A><br>
+　●「おかず・サーガ」
+　<A HREF="https://apps.apple.com/jp/app/id1403694499?mt=8&ign-mpt=uo%3D4"TARGET="_blank"><font color="blue">[AppStore]</font></A><br>
+　●「ソーキ伝説」
+　<A HREF="https://apps.apple.com/jp/app/id1422947175"TARGET="_blank"><font color="blue">[AppStore]</font></A><br>
+　●「ソースのやぼう」
+　<A HREF="https://apps.apple.com/jp/app/id1386508979"TARGET="_blank"><font color="blue">[AppStore]</font></A><br>
+　●「ステルス将棋」
+　<A HREF="https://apps.apple.com/jp/app/id1292537601"TARGET="_blank"><font color="blue">[AppStore]</font></A><br>
+　●「おかずサッカー」
+　<A HREF="https://apps.apple.com/jp/app/id1296190132"TARGET="_blank"><font color="blue">[AppStore]</font></A><br>
+　●「信濃グランセローズ公式応援アプリ」
+　<A HREF="https://play.google.com/store/apps/details?id=jp.co.ginga.apps.grandserows"TARGET="_blank"><font color="blue">[Google Play]</font></A><br>
+　●「お笑いサッカー」
+　<A HREF="http://apps.apple.com/jp/app/yun-rensakka/id1167415243"TARGET="_blank"><font color="blue">[AppStore]</font></A><br>
+　●「おかず甲子園全国編」
+　<A HREF="https://apps.apple.com/jp/app/id1371807271"TARGET="_blank"><font color="blue">[AppStore]</font></A><br>
+　●「おかず甲子園」
+　<A HREF="https://apps.apple.com/us/app/okazu-jia-zi-yuan/id1087200930?l=ja&ls=1&mt=8"TARGET="_blank"><font color="blue">[AppStore]</font></A>
+　<A HREF="https://play.google.com/store/apps/details?id=com.geobrain.okazukoshien"TARGET="_blank"><font color="blue">[Google Play]</font></A><br>
+　●「日中入力」
+　<A HREF="https://apps.apple.com/jp/app/ri-zhong-ru-li-ri-ben-yuwo/id1082951139?mt=8"TARGET="_blank"><font color="blue">[AppStore]</font></A><br>
+　●「俺のナイン」
+　<A HREF="https://apps.apple.com/us/app/annonain-yi-zui-qiangnookazude/id1043435414?l=ja&ls=1&mt=8"TARGET="_blank"><font color="blue">[AppStore]</font></A><br>
+<br></label><label id="main-form:j_idt82:39:j_idt83" class="ui-outputlabel ui-widget"><b><fo<!-- お知らせ -->
+<br />
+<font size="+1" color="#990066">
+<u>《〈　啓蒙活動のお知らせ　〉》</u></b>
+</font>
+<!-- お知らせの内容[EDIT] -->
+<!-- preタグ内は改行、半角文字などがそのまま表示されます -->
+<br />
+
+<b><font color="black">
+<A id = "■Wiki■"><br />
+■銀河ソフトウェア Wiki、随時更新中です■<br />
+</b></font><br />
+　銀河ソフトウェア Wiki、随時更新しております。<br />
+　ITの技術情報や啓蒙活動などの情報をより簡単に共有できるようになっております。<br />
+<br />
+　銀河ソフトウェア Wiki<br />
+　<A HREF="//webcommon.ginga.info/in/"TARGET="_blank"><font color="blue">http://webcommon.ginga.info/in/</font></A><br />
+　<br />
+　閲覧用ユーザ<br />
+　ID　：　guser<br />
+　PASS：　guser1<br />
+<br />
+　銀河ソフトウェア Wiki に書き込み希望、ご質問等は<br />
+　吉村正一(s-yoshimura@ginga.info)まで問い合わせ願います。<br />
+<br /></label><label id="main-form:j_idt82:40:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■keimou■"><br>
+■啓蒙活動について■<br>
+</b></font><br>
+　リーダーは啓蒙活動(人々に新しい知識を与え、教え導く活動のこと)を行っております。<br>
+　複数の啓蒙活動に参加することも可能ですので気軽に参加願います。<br>
+<br>
+　どんな啓蒙活動があるか、またそれぞれの啓蒙活動の詳細は、<br>
+　<A HREF = "#■Wiki■"><font color="blue">銀河ソフトウェア Wiki</font></A>で確認できます。<br>
+　各自確認の上、参加したい啓蒙活動の主催者にメールを送信してください。<br>
+<br>
+</label><label id="main-form:j_idt82:41:j_idt83" class="ui-outputlabel ui-widget"><b><fo<!-- お知らせ -->
+<br />
+<font size="+1" color="#990066">
+<u>《〈　その他のお知らせ（公認サークル活動など）　〉》</u></b>
+</font>
+<!-- お知らせの内容[EDIT] -->
+<!-- preタグ内は改行、半角文字などがそのまま表示されます -->
+<br /></label><label id="main-form:j_idt82:42:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■abolition■"><br />
+■虚礼廃止について＜総務部＞■<br />
+</b></font><br />
+　当社では、虚礼廃止の観点に鑑み、<br />
+　社内での年賀状・お中元等のやり取りについては、<br />
+　自粛を推奨しております。<br />
+<br />
+　社員の皆様は、このような事を気にせず、業務に励んでください。<br />
+<br /></label><label id="main-form:j_idt82:43:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■footsal■"><br>
+■フットサル部■【公認サークル】<br>
+</b></font><br>
+　コロナ禍で運動不足気味な人も多いと思いますので<br>
+　運動不足解消に是非ご参加ください。<br>
+　初心者の方でも大歓迎です！！<br>
+　参加希望者は下記までご連絡願います。<br>
+　TO：y-baba@ginga.info（馬場キャプテン）<br>
+　CC：m-koba@ginga.info（木庭）<br>
+<br>
+　【準備するもの】<br>
+　　・スニーカーなどの動きやすい靴<br>
+　　　トレーニングシューズ、フットサルシューズは可<br>
+　　　サッカー用のスパイクは不可<br>
+　　・動きやすい服装と着替え、タオル（ロッカー、シャワー有り）<br>
+　　・コート代<br>
+　　　銀河社員、社外参加者：1,000円<br>
+　　　入社一年未満の社員　：500円<br>
+　　　研修生　　　　　　　：無料<br>
+<br>
+　【日時】<br>
+　2024年12月21日(土) 16:00～18:00<br>
+<br>
+　【場所】<br>
+　クーバー・フットボールパーク横浜ジョイナス<br>
+　<A HREF="https://labola.jp/r/shop/3073/"TARGET="_blank"><font color="blue">https://labola.jp/r/shop/3073/</font><br>
+<br>
+</label><label id="main-form:j_idt82:44:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■survivalgame■"><br>
+■サバゲ部■【公認サークル】<br>
+</b></font><br>
+　【参加ご希望の方】<br>
+　　下記へご連絡ください。<br>
+　　サバゲ部部長　木村義康（y-kimura@ginga.info)<br>
+　　サバゲ部HP　　<A HREF="https://sites.google.com/site/gingawar/home"TARGET="_blank"><font color="blue">https://sites.google.com/site/gingawar/home</font></A><br>
+　　※HPは休止中ですが参照できます。<br>
+<br>
+</label><label id="main-form:j_idt82:45:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■shogi■"><br>
+■将棋部■【公認サークル】<br>
+</b></font><br>
+　参加を希望される方は、守野賢治(k-morino@ginga.info)までお気軽にご連絡ください。<br>
+<br>
+</label><label id="main-form:j_idt82:46:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■ukulele■"><br>
+■ウクレレ教室＜ウチウミ社長室＞■<br>
+</b></font><br>
+　参加希望者はuchiumi@ginga.co.jpまで<br>
+　「銀河ウクレレレッスン参加希望」とメール送ってください。<br>
+<br>
+</label><label id="main-form:j_idt82:47:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■Granshipwaribiki■"><br>
+■銀河グループ飲食店社員割引制度のお知らせ＜総務部＞■<br>
+</b></font><br>
+　●社員割引制度について<br>
+　下記の通り福利厚生の一環として社員割引を実施しております。<br>
+　是非ご利用ください！<br>
+<br>
+　グランシップ<br>
+　　○ランチタイム(11:30～14:00)　　全品100円(内勤社員は除く)<br>
+　　○カフェタイム(14:00～17:00)　　正規料金の５割引<br>
+　　○バータイム(18:00～)　　正規料金の４割引<br>
+<br>
+　呑み喰い屋ぎん<br>
+　　〇バータイム(17:00～)　　正規料金の４割引<br>
+<br>
+　AILES<br>
+　　〇バータイム(19:00～)　　正規料金の４割引<br>
+<br></label><label id="main-form:j_idt82:48:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■Granship■"><br />
+■ラウンジDJを開催！＜グランシップ＞■<br />
+</b></font><br />
+　毎月第2土曜日にGranshipでラウンジDJを開催しております。<br />
+　普段のGranshipの雰囲気とは一味違った空間で一緒にお酒を飲みましょう！<br />
+　気軽にお越しください。<br />
+<br />
+　詳細は西村陽平(y-nishimura@ginga.info)までお願いいたします。<br />
+　090-1524-5079<br />
+<br /></label><label id="main-form:j_idt82:49:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■meishi■"><br />
+■名刺作成について＜総務部＞■<br />
+</b></font><br />
+　社員の皆様の名刺を作成しております。<br />
+<br />
+　・部署名<br />
+　・役職名<br />
+　・電話番号の有無<br />
+　・枚数<br />
+　・受取方法(来訪日時、郵送希望等)<br />
+<br />
+　上記内容をご指定の上、総務部(audit@ginga.info)までご連絡ください。<br />
+<br /></label><label id="main-form:j_idt82:50:j_idt83" class="ui-outputlabel ui-widget"><b><font color="blue">
+<A id = "■mizuho■"><br>
+■みずほ銀行からのご案内＜総務部＞■<br>
+</b></font><br>
+　当社メインバンクの一つであるみずほ銀行から社員のみなさんへのご案内です。<br>
+<br>
+　１）NISAとiDeCoの賢い活用法(視聴期限：11/29(金))<br>
+　<A HREF="https://www2.ginga.info/Circle/file/NISAiDeCo2410.pdf"TARGET="_blank"><font color="blue">NISA×iDeCo動画案内[PDF]</font></A><br>
+<br>
+　２）NISA・iDeCo・生命保険で賢く資産を増やそう(オンライン開催　12/4(水)・7(土))<br>
+　<A HREF="https://www2.ginga.info/Circle/file/セミナー案内202412.pdf"TARGET="_blank"><font color="blue">オンラインセミナーのご案内[PDF]</font></A><br>
+<br></label><label id="main-form:j_idt82:51:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■loan■"><br />
+■住宅ローンの新規契約や借換を検討している方へ＜総務部＞■(随時更新)<br />
+</b></font><br />
+　当社取引先銀行の住宅ローンの新規または借換の情報を掲示します。<br />
+　※当社にマージン等は入りません。契約はあくまで個人の責任で行ってください。<br />
+<br />
+　◆みずほ銀行　中目黒支店◆<br />
+　<A HREF="https://www.mizuhobank.co.jp/retail/products/loan/housing/index.html"TARGET="_blank"><font color="blue">https://www.mizuhobank.co.jp/retail/products/loan/housing/index.html</font></A><br />
+<br />
+　◆三井住友銀行　渋谷駅前支店◆<br />
+　<A HREF="https://www.smbc.co.jp/kojin/jutaku_loan/"TARGET="_blank"><font color="blue">https://www.smbc.co.jp/kojin/jutaku_loan/</font></A><br />
+<br /></label><label id="main-form:j_idt82:52:j_idt83" class="ui-outputlabel ui-widget"><A id = "■Pay■"><br>
+<b><font color="black">
+■J-Coin Payを登録しましょう＜総務部＞■<br>
+</b></font><br>
+　J-Coin Payは、PayPayのようなスマホ決済アプリのみずほ銀行版です。<br>
+　詳しくはこちらのJ-Coin PayのHPをご確認ください。<br>
+　<A HREF="https://j-coin.jp/"TARGET="_blank"><font color="blue">https://j-coin.jp/</font></A><br>
+<br>
+　＜J-Coin Payの特徴、メリット＞<br>
+　★みずほ銀行の口座から手数料なしでチャージできます!!<br>
+　★J-Coin Payの残高を手数料なしで口座に戻せます!!<br>
+<font color="blue">
+　★グランシップを始めとする銀河グループの３店舗で使えます!!<br>
+</font><br>
+　＜注意点＞<br>
+　・J-Coin Payに登録できるのはみずほ銀行の口座です。<br>
+　　三井住友銀行、三菱UFJなどは登録できません。<br>
+　・キャンペーンを受け取るにはコード入力が必要です。<br>
+<br></label><label id="main-form:j_idt82:53:j_idt83" class="ui-outputlabel ui-widget"><!-- 安全衛生委員会からのお知らせ＜安全衛生委員会＞ -->
+<font size="+1" color="teal">
+<A id = "anzen"><br />
+<u><b>《〈　安全衛生委員会からのお知らせ＜安全衛生委員会＞　〉》</b></u><br />
+</b></u></font></label><label id="main-form:j_idt82:54:j_idt83" class="ui-outputlabel ui-widget"><A id = "■sangyoi■"><br>
+<b><font color="blue">
+■産業医からのお知らせ■<br>
+</b></font>
+<br>
+　銀河グループ産業医の先生から提供していただいた情報を展開します。<br>
+<br>
+　<A HREF="https://www2.ginga.info/Circle/file/sangyoi202312.pdf"TARGET="_blank"><font color="blue">ノロウイルス(2023年12月)</font></A><br>
+　<A HREF="https://www2.ginga.info/Circle/file/sangyoi202401.pdf"TARGET="_blank"><font color="blue">年代と病気(2024年1月)</font></A><br>
+　<A HREF="https://www2.ginga.info/Circle/file/sangyoi202402.pdf"TARGET="_blank"><font color="blue">花粉症(2024年2月)</font></A><br>
+　<A HREF="https://www2.ginga.info/Circle/file/sangyoi202403.pdf"TARGET="_blank"><font color="blue">脂質異常症(2024年3月)</font></A><br>
+　<A HREF="https://www2.ginga.info/Circle/file/sangyoi202404.pdf"TARGET="_blank"><font color="blue">メンタルヘルスのラインケア(2024年4月)</font></A><br>
+　<A HREF="https://www2.ginga.info/Circle/file/sangyoi202405.pdf"TARGET="_blank"><font color="blue">大腸がんとがん検診(2024年5月)</font></A><br>
+　<A HREF="https://www2.ginga.info/Circle/file/sangyoi202406.pdf"TARGET="_blank"><font color="blue">熱中症と温度湿度管理(2024年6月)</font></A><br>
+　<A HREF="https://www2.ginga.info/Circle/file/sangyoi202407.pdf"TARGET="_blank"><font color="blue">食中毒(2024年7月)</font></A><br>
+　<A HREF="https://www2.ginga.info/Circle/file/sangyoi202408.pdf"TARGET="_blank"><font color="blue">有給休暇(2024年8月)</font></A><br>
+　<A HREF="https://www2.ginga.info/Circle/file/sangyoi202409.pdf"TARGET="_blank"><font color="blue">防災(2024年9月)</font></A><br>
+　<A HREF="https://www2.ginga.info/Circle/file/sangyoi202410.pdf"TARGET="_blank"><font color="blue">健康診断対策(2024年10月)</font></A><br>
+　<font color="red">NEW!</font><A HREF="https://www2.ginga.info/Circle/file/sangyoi202411.pdf"TARGET="_blank"><font color="blue">インフルエンザ(2024年11月)</font></A><br>
+　予防接種を受けましょう！<br>
+<br></label><label id="main-form:j_idt82:55:j_idt83" class="ui-outputlabel ui-widget"><A id = "■anzeneisei■"><br>
+<b><font color="black">
+■安全衛生教育■<br>
+</b></font>
+<br>
+　2024年度の安全衛生教育の資料を展開します。<br>
+<br>
+　<A HREF="https://www2.ginga.info/Circle/file/202405anzenkyoiku1.pdf"TARGET="_blank"><font color="blue">安全衛生について[2024年5月版]</font></A><br>
+　<A HREF="https://www2.ginga.info/Circle/file/202405anzenkyoiku2.pdf"TARGET="_blank"><font color="blue">メンタルヘルスのセルフケアを学ぶ[2024年5月版]</font></A><br>
+　<A HREF="https://www2.ginga.info/Circle/file/202405anzenkyoiku3.pdf"TARGET="_blank"><font color="blue">人口知能(AI)とメンタルヘルス[2024年5月版]</font></A><br>
+　<A HREF="https://www2.ginga.info/Circle/file/202405anzenkyoiku4.pdf"TARGET="_blank"><font color="blue">いまの気分を客観的に判定する～ベックうつ病調査表～</font></A><br>
+<br>
+　2024年度の安全衛生教育の資料を展開します。<br>
+<br>
+＜安全衛生教育＞<br>
+<br>
+　◯安全衛生について[2024年5月版]<br>
+　　当社の安全衛生への取り組みについてまとめました。<br>
+　　安全衛生委員会を毎月開催しています。<br>
+<br>
+　◯メンタルヘルスのセルフケアを学ぶ[2024年5月版]<br>
+　　メンタルヘルスの基礎となるセルフケアについて学習し、<br>
+　　働く人のセルフケアに最も効果的な認知行動療法を紹介します。<br>
+　　（セルフケア＝自身によるストレスへの気づきと対処）<br>
+<br>
+　銀河通信上での掲載により教育実施に代えます。<br>
+　大切な内容ですので必ずお読みください。<br>
+<br>
+＜補足資料＞<br>
+<br>
+　◯人工知能(AI)とメンタルヘルス[2024年5月版]<br>
+　　メンタルヘルスに興味を持ってもらうための講習用資料です。<br>
+　　人工知能(AI)の話題からメンタルヘルスにつなげます。<br>
+<br>
+　◯いまの気分を客観的に判定する～ベックうつ病調査表～<br>
+　　気分が落ち込んだときに活用してください。<br>
+　　現在の気分を客観的に把握できます。<br>
+<br>
+　ご質問やご相談は瀧澤(takizawa@ginga.co.jp)までお願いします。<br>
+<br></label><label id="main-form:j_idt82:56:j_idt83" class="ui-outputlabel ui-widget"><!-- 関東ＩＴソフトウェア健康保険組合（ＩＴＳ）関連のお知らせ -->
+<font size="+1" color="teal">
+<A id = "its"><br />
+<u><b>《〈　関東ＩＴソフトウェア健康保険組合（ＩＴＳ）関連のお知らせ　〉》</b></u><br />
+</b></u></font><br />
+
+<font color="black">
+　関東ＩＴソフトウェア健康保険組合（ＩＴＳ）の新着情報は、<A HREF="https://www.its-kenpo.or.jp/"TARGET="_blank"><font color="blue"><u>ＩＴＳホームページ</u></font></A>の<br />
+　「健康管理」「健康増進・保健施設」でご確認ください。<br>
+　※健歩大会などの各種イベントは「体育奨励イベント」にあります。<br>
+</font>
+<br />
+</label><label id="main-form:j_idt82:57:j_idt83" class="ui-outputlabel ui-widget"><A Name = "■influenza2■"><br>
+<b><font color="black">
+■インフルエンザ予防接種が無料で受けられます（MYメディカルクリニック限定）＜総務部＞■<br>
+</b></font>
+<br>
+　銀河グループ社員は、MYメディカルクリニックでインフルエンザ予防接種を受ける場合に限り、<br>
+　無料で接種できることになりました。<br>
+　接種を希望されている方はぜひご利用ください。<br>
+<br>
+【予約について】<br>
+　予約は不要です。直接実施場所へお越しください。<br>
+　ただし、利用制限がかかっている場合がありますので、<br>
+　事前にHPをご確認ください。<br>
+<br>
+【実施場所】<br>
+　<A HREF="https://mymc.jp/access/"TARGET="_blank"><font color="blue"><u>MYメディカルクリニック(渋谷)</u></font></A>(健康診断実施場所と同じ)<br>
+<br>
+【実施期間】<br>
+　２０２４年１０月１日（火）～２０２５年１月３１日（金）<br>
+<br>
+【対象者】<br>
+　被保険者および被扶養者<br>
+　※当日に対象者の資格がない方は、接種できません。<br>
+　※予防接種は年度内１回のみ可。<br>
+<br>
+【費用】<br>
+　無料<br>
+<br>
+【利用方法】<br>
+　１　東振協の利用券発行（<A HREF="https://www.toshinkyo.or.jp/influenza.html"TARGET="_blank"><font color="blue">インフルエンザ予防接種健保組合共同事業のご案内</font></A>）<br>
+　　　　(東京都渋谷区のMYメディカルクリニックを選択する)<br>
+　２　<A HREF="https://www2.ginga.info/Circle/file/2024influyoshinhyo.pdf"TARGET="_blank"><font color="blue">予防接種予診票[PDF]</font></A>を印刷し記入する<br>
+　　　　(MYメディカルクリニックで接種する場合のみ必要)<br>
+　３　当日に<A HREF="https://mymc.jp/outpatientconsultation/influenza-vakzin/"TARGET="_blank"><font color="blue"><u>MYメディカルクリニックのHP</u></font></A>にて接種可能か確認をする<br>
+　４　予防接種の受診(保険証・利用券・予診票を提示)<br>
+<br>
+<font color="red">
+【注意】<br>
+　今年度より健康保険組合の規制が厳しくなったため、<br>
+　受診日に必ず『利用券』『予診票』『健康保険証』の3点を受付にご提示いただかないと<br>
+　補助利用が出来ないことになりましたので、忘れずにお持ちください。</font><br>
+<br>
+　不明点は、総務部(audit@ginga.info)までお問い合わせください。<br>
+<br>
+</label><label id="main-form:j_idt82:58:j_idt83" class="ui-outputlabel ui-widget"><A Name = "■influenza■"><br>
+<b><font color="black">
+■インフルエンザ予防接種について＜総務部＞■<br>
+</b></font>
+<br>
+　インフルエンザの予防接種に対して健保組合から補助が出ます。<br>
+　予防接種をご希望の方は、各自、下記要領でお申し込みください。<br>
+　ワクチンの量には限りがありますので、早めの接種をお勧めします。<br>
+<br>
+　<font color="red">※昨年度同様、MYメディカルクリニックで無料で接種できる見込みですが、<br>
+　詳細に関しては決まり次第周知いたします。</font><br>
+<br>
+【申込について】<br>
+　<A HREF="https://www.its-kenpo.or.jp/kanri/influenza.html"TARGET="_blank"><font color="blue">インフルエンザ予防接種費用補助事業について</font></A>をご確認ください。<br>
+　※総務での申込代行は行っておりません。<br>
+<br>
+【申込期間】<br>
+　２０２４年９月２日（月）～２０２５年１月３１日（金）<br>
+<br>
+【実施期間】<br>
+　２０２４年１０月１日（火）～２０２５年１月３１日（金）<br>
+<br>
+【実施場所】<br>
+　東振協が契約している医療機関および実施会場（組合のＨＰでご確認ください）<br>
+<br>
+【対象者】<br>
+　被保険者および被扶養者<br>
+　※申し込み時および当日に対象者の資格がない方は、接種できません。<br>
+　※予防接種は年度内１回のみ可。<br>
+<br>
+【費用】<br>
+　実施機関が設定している予防接種料金から2,000円を差し引いた金額<br>
+<br>
+【利用方法】<br>
+　１　医療機関選択<br>
+　２　電話等で接種日の予約<br>
+　３　利用券の発行（<A HREF="http://www.toshinkyo.or.jp/influenza.html"TARGET="_blank"><font color="blue">インフルエンザ予防接種健保組合共同事業のご案内</font></A>）<br>
+　４　当日、保険証および利用券を提示<br>
+<br>
+　不明点は、総務部(audit@ginga.info)までお問い合わせください。<br>
+<br></label><label id="main-form:j_idt82:59:j_idt83" class="ui-outputlabel ui-widget"><A id = "■mynumberhokensho■"><br>
+<b><font color="black">
+■マイナ保険証の登録について＜総務部＞■<br>
+</b></font>
+<br>
+　医療機関や薬局窓口で提示する「健康保険証」は、2024年12月2日に廃止となり、<br>
+　新たに発行されなくなります。(扶養親族分や紛失による再発行含む)<br>
+　廃止以降、医療機関等への受診については、<br>
+　「マイナ保険証」で受診していただくことになりますので、<br>
+　早めに「マイナ保険証」を準備しておくと安心です。<br>
+　<b><font color="red">「マイナ保険証」は会社で登録作業は行えません。</b></font><br>
+　<br>
+　詳細・登録方法は、下記リーフレットまたは、組合HPをご覧ください。<br>
+　<A HREF="https://www2.ginga.info/Circle/file/mynumberhokensho.pdf"TARGET="_blank"><font color="blue">「医療機関の受診はマイナ保険証で」[PDF]</font></A><br>
+　<A HREF="https://www.its-kenpo.or.jp/koho/mynumber/mynumber_hokenshou_ikou.html"TARGET="_blank"><font color="blue"><u>関東ITソフトウェア健康保険組合[HP]</u></font></A><br>
+<br>
+　<b>☆現在お持ちの健康保険証について</b><br>
+　2024年12月以降も1年間(2025年12月１日まで)は保険証としてご利用出来ます。<br>
+　2025年12月以降は、医療機関では使用できなくなりますが、<br>
+　資格情報としてITSでの保健事業(保養施設・レストラン・健診・体育奨励イベント等)を<br>
+　利用する際に使用しますので破棄しないでください。<br>
+<br>
+　ご不明な点は総務部(audit@ginga.info)までお問い合わせください。<br>
+<br></label><label id="main-form:j_idt82:60:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A Name = "■junkaifujin■"><br>
+■2025年度春季巡回婦人健診のお知らせ＜総務部＞■<br>
+</b></font>
+<br>
+　2025年度春季巡回婦人健診が行われます。<br>
+　<A HREF="https://www.its-kenpo.or.jp/kanri/fujin/junkai.html"TARGET="_blank"><font color="blue">ITSホームページ「春季巡回婦人健診のご案内」</font></A><br>
+　受診希望者は、各自、下記要領でお申し込み下さい。<br>
+<br>
+【申込方法】<br>
+　<A HREF="https://www.its-kenpo.or.jp/kanri/fujin/junkai.html"TARGET="_blank"><font color="blue">ITSホームページからインターネットで申込み</font></A><br>
+　※巡回婦人健診はインターネット対応の為、総務での申込代行は行っておりません。<br>
+<br>
+【申込期限】<br>
+　２０２５年１月１５日（水）１７時００分まで<br>
+<br>
+【実施期間】<br>
+　２０２５年４月１日～２０２５年８月３１日<br>
+<br>
+【実施場所】<br>
+　全国各地の春季巡回婦人健診会場（ITSホームページでご確認ください）<br>
+<br>
+【受診資格】<br>
+　被扶養者である配偶者（妻）と３０歳以上の被扶養者（女性）<br>
+　※健診申し込み時及び健診当日に対象者の資格がない方は、受診できません。<br>
+　※受診は年度内１回のみ可。<br>
+<br>
+【費用】<br>
+　無料<br>
+<br>
+　不明点は、総務部(audit@ginga.info)までお問い合わせください。<br>
+<br></label><label id="main-form:j_idt82:61:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■pepup■"><br>
+■個人向け健康ポータルサイトお知らせ＜総務部＞■<br>
+■<br>
+</b></font>
+<br>
+　個人向け健康ポータルサイト「Pep Up」がご利用いただけます。<br>
+　オンラインユーザー登録よりご登録いただけます。<br>
+　詳細は、下記HPをご確認いただき、ご登録ください。<br>
+　<A HREF="https://www.its-kenpo.or.jp/kanri/PepUp.html"TARGET="_blank"><font color="blue"><u>健康ポータルサイトPep Up</u></font></A><br>
+<br>
+　興味のある方はぜひご登録していただき、<br>
+　ご自身の健康管理に役立ててみてください。<br>
+　<br>
+</label><label id="main-form:j_idt82:62:j_idt83" class="ui-outputlabel ui-widget"><!--  -->
+<font size="+1" color="#990066">
+<A id = "employeenotice"><br />
+<u><b>《〈　社員の依頼による周知（有志によるサークル活動など）　〉》</b></u><br />
+</b></u></font></label><label id="main-form:j_idt82:63:j_idt83" class="ui-outputlabel ui-widget"><b><font color="black">
+<A id = "■baseball■"><br>
+■野球愛好会メンバー募集！■<br>
+</b></font><br>
+　野球好きなら、一緒に楽しみませんか？野球愛好会メンバー募集！<br>
+<br>
+　参加希望者は下記までご連絡願います。お気軽にお問い合わせください。<br>
+　[連絡先]<br>
+　　TO：kitajima@ginga.co.jp（北島監督）<br>
+　　CC：ryo-aoki@ginga.info（青木）<br></label><label id="main-form:j_idt82:64:j_idt83" class="ui-outputlabel ui-widget"><br />
+ <table align="right">
+ 	<tr>
+ 		<td><font size="-1">（銀河通信に関する問い合わせは総務部(audit@ginga.info)まで）</font>
+ 		</td>
+ 	</tr>
+ </table>
+ 
+ </td></tr>
+ </table>
+ </td>
+ </tr>
+ </table>
+ 	<!--コンテンツ終わり////////////////////////////////////////////////////////////////////////////-->
+ </div>
+ </div>
+ <div class="box_banner">
+ <ul id="globalMenu">
+ <li id="globalMenu li"><a id="globalMenu a:hover" href="https://www2.ginga.info/Circle/">社内ページ</a></li>
+ <li id="globalMenu li"><a id="globalMenu a:hover" href="https://www2.ginga.info/Circle/index.php?action=plinks">法令リンク集</a></li>
+ <li id="globalMenu li"><a id="globalMenu a:hover" href="https://www2.ginga.info/Circle/index.php?action=format">フォーマット一覧</a></li>
+ <li id="globalMenu li"><a id="globalMenu a:hover" href="https://cyb.ginga.info/scripts/cbag/ag.exe?" target="_blank">サイボウズ</a></li>
+ </ul>
+ <ul id="globalMenu"></ul>
+ <div style="height:6px; width:80px;"></div>
+ 	</div>
+ 	<div class="float_clear"></div></label><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:1" value="-982279961484555617:2555425392131446064" autocomplete="off" />
+</form>
+        </td>
+      </tr>
+      <tr>
+        <td><body></body>
+        </td>
+      </tr>
+    </table></body>
+</html>
