@@ -27,4 +27,4 @@ def embeddings(texts):
     )
     
     # ベクトル化された文章のリストを返す
-    return response
+    return response.data[0].embedding
